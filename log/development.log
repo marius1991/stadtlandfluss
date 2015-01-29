@@ -4,3 +4,57 @@ Started GET "/" for 127.0.0.1 at 2015-01-29 23:58:02 +0100
 Processing by Rails::WelcomeController#index as HTML
   Rendered /var/lib/gems/1.9.1/gems/railties-4.1.6/lib/rails/templates/rails/welcome/index.html.erb (9.9ms)
 Completed 200 OK in 105ms (Views: 89.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-30 00:11:55 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 1157ms (Views: 1146.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-01-30 00:11:56 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-30 00:11:56 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-30 00:11:57 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-30 00:11:57 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-30 00:11:57 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-01-30 00:11:57 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-30 00:11:57 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-30 00:20:27 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (24.2ms)
+Completed 200 OK in 101ms (Views: 90.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-01-30 00:20:28 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-30 00:20:28 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-01-30 00:20:28 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-30 00:20:28 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-30 00:20:28 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-30 00:20:28 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-30 00:20:28 +0100
