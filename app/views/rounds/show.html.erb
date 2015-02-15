@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Character:</strong>
+  <%= @round.character %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @round.city %>
+</p>
+
+<p>
+  <strong>Country:</strong>
+  <%= @round.country %>
+</p>
+
+<p>
+  <strong>River:</strong>
+  <%= @round.river %>
+</p>
+
+<p>
+  <strong>Points:</strong>
+  <%= @round.points %>
+</p>
+
+<%= link_to 'Edit', edit_round_path(@round) %> |
+<%= link_to 'Back', rounds_path %>

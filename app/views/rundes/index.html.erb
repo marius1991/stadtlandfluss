@@ -1,0 +1,33 @@
+<h1>Listing rundes</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Buchstabe</th>
+      <th>Stadt</th>
+      <th>Land</th>
+      <th>Fluss</th>
+      <th>Punkte</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @rundes.each do |runde| %>
+      <tr>
+        <td><%= runde.buchstabe %></td>
+        <td><%= runde.stadt %></td>
+        <td><%= runde.land %></td>
+        <td><%= runde.fluss %></td>
+        <td><%= runde.punkte %></td>
+        <td><%= link_to 'Show', runde %></td>
+        <td><%= link_to 'Edit', edit_runde_path(runde) %></td>
+        <td><%= link_to 'Destroy', runde, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Runde', new_runde_path %>

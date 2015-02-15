@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Buchstabe:</strong>
+  <%= @runde.buchstabe %>
+</p>
+
+<p>
+  <strong>Stadt:</strong>
+  <%= @runde.stadt %>
+</p>
+
+<p>
+  <strong>Land:</strong>
+  <%= @runde.land %>
+</p>
+
+<p>
+  <strong>Fluss:</strong>
+  <%= @runde.fluss %>
+</p>
+
+<p>
+  <strong>Punkte:</strong>
+  <%= @runde.punkte %>
+</p>
+
+<%= link_to 'Edit', edit_runde_path(@runde) %> |
+<%= link_to 'Back', rundes_path %>

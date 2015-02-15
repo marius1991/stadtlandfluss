@@ -1,0 +1,13 @@
+class CreateRundes < ActiveRecord::Migration
+  def change
+    create_table :rundes do |t|
+      t.string :buchstabe, :limit => 1, :null => false
+      t.string :stadt
+      t.string :land
+      t.string :fluss
+      t.integer :punkte
+
+      t.timestamps
+    end
+  end
+end

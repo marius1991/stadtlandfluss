@@ -1,0 +1,34 @@
+<h1>Spielen</h1>
+
+<table border="1">
+  <% @rounds.each do |round| %>
+  <form accept-charset="UTF-8" action="/rounds" class="new_round" id="new_round" method="post"><div style="display:none"><input name="utf8" value="✓" type="hidden"><input name="authenticity_token" value="zDiJBN4LGvCmF4rRa1H0eQ0M4rjQZPkcmf8J7K0klcg=" type="hidden"></div>
+  <tr>
+    <th>Buchstabe</th>
+    <th>Stadt</th>
+    <th>Land</th>
+    <th>Fluss</th>
+    <th>Punkte</th>
+  </tr>
+  <tr>
+    <td><%= Round.character %></td>
+    <td><input id="round_city" name="round[city]" type="text"></td>
+    <td><input id="round_country" name="round[country]" type="text"></td>
+    <td><input id="round_river" name="round[river]" type="text"></td>
+    <td><%= #round.points %></td>
+  </tr>
+</table>
+<div class="actions">
+    <input name="commit" value="Stop!" type="submit">
+  </div>
+</form>
+
+
+
+
+
+
+
+
+
+

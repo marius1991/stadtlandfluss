@@ -1,0 +1,6 @@
+class PlaysController < ApplicationController
+def play
+    @round = Round.new(:character => CHARS[rand(25)])
+    #@round.character = 
+  end
+end

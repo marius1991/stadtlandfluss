@@ -1,0 +1,21 @@
+<%= form_tag("/play", method: "post") do %>
+ <table border=1>
+ <tr>
+    <th>Buchstabe</th>
+    <th>Stadt</th>
+    <th>Land</th>
+    <th>Fluss</th>
+    <th>Punkte</th>
+  </tr>
+  <tr>
+    <td><%=hidden_field_tag(:round, @round.character)  @round.character %></td>
+    <td><%= text_field(:round, :city) %></td>
+    <td><%= text_field(:round, :country) %></td>
+    <td><%= text_field(:round, :river) %></td>
+    <td><%=  %></td>
+  </tr>
+ </table>
+ <%= submit_tag("Stop!") %>
+<% end %>
+
+

@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  buchstabe: MyString
+  stadt: MyString
+  land: MyString
+  fluss: MyString
+  punkte: 1
+
+two:
+  buchstabe: MyString
+  stadt: MyString
+  land: MyString
+  fluss: MyString
+  punkte: 1

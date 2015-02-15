@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stadtlandfluss1</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<nav>
+    <% if current_user.nil? %>
+      <%= link_to "Login", sessions_new_path %>
+    <% else %>
+      Eingeloggt als <%= current_user.name %>.
+      <%= link_to "Logout", session_path( session ), :method => :delete %>
+    <% end %>
+    <% if current_user.nil? %>
+      <%= link_to "Registrieren", users_new_path %>
+    <% end %>
+</nav>
+<p id="notice"><%= notice %></p>
+<p id="alert"><%= notice %></p>
+
+<%= yield %>
+
+</body>
+</html>
