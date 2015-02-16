@@ -1,5 +1,11 @@
 Rails.application.routes.draw do
     
+  get 'welcome/regeln'
+
+  get 'welcome/impressum'
+
+  get 'welcome/ueber_uns'
+
   resources :solutions
 
   resources :games
