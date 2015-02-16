@@ -6,7 +6,7 @@ class RoundsController < ApplicationController
   def index
     @rounds = Round.all
   end
-  
+
   # GET /rounds/1
   # GET /rounds/1.json
   def show
@@ -69,6 +69,6 @@ class RoundsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def round_params
-      params.require(:round).permit(:character, :city, :country, :river, :points)
+      params.require(:round).permit(:character, :points, :roundcount)
     end
 end

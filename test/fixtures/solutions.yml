@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  solution: MyString
+  category: MyString
+  is_correct: false
+
+two:
+  solution: MyString
+  category: MyString
+  is_correct: false

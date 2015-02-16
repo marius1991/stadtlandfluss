@@ -11,14 +11,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150215151404) do
+ActiveRecord::Schema.define(version: 20150216165348) do
+
+  create_table "games", force: true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "rounds", force: true do |t|
     t.string   "character"
-    t.string   "city"
-    t.string   "country"
-    t.string   "river"
     t.integer  "points"
+    t.integer  "round_count"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -29,6 +33,14 @@ ActiveRecord::Schema.define(version: 20150215151404) do
     t.string   "land"
     t.string   "fluss"
     t.integer  "punkte"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "solutions", force: true do |t|
+    t.string   "solution"
+    t.string   "category"
+    t.boolean  "is_correct"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

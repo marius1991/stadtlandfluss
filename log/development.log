@@ -17505,3 +17505,1440 @@ Started GET "/users/new" for 127.0.0.1 at 2015-02-15 18:14:36 +0100
 Processing by UsersController#new as HTML
   Rendered users/new.html.erb within layouts/application (5.0ms)
 Completed 200 OK in 76ms (Views: 74.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-15 18:33:40 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 156ms (Views: 122.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-15 18:33:40 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-15 18:33:40 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-15 18:33:40 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-15 18:33:40 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-15 18:33:40 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-15 18:33:40 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-15 18:33:40 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-15 18:33:40 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-15 18:33:40 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-15 18:33:40 +0100
+
+
+Started GET "/assets/rounds.js?body=1" for 127.0.0.1 at 2015-02-15 18:33:40 +0100
+
+
+Started GET "/assets/rundes.js?body=1" for 127.0.0.1 at 2015-02-15 18:33:40 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-02-15 18:33:40 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-15 18:33:40 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-02-15 18:33:40 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-15 18:33:40 +0100
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2015-02-15 18:33:42 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 83ms (Views: 81.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sessions/new" for 127.0.0.1 at 2015-02-15 18:33:53 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4jGp9jq91ov/7MLqSchNGk9Wqcs3q0GRNOrPs3MYUPk=", "email"=>"phi.ri@gmx.de", "password"=>"[FILTERED]", "commit"=>"Log in"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'phi.ri@gmx.de' LIMIT 1
+  Rendered sessions/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 190ms (Views: 78.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-15 18:33:53 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-15 18:33:53 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-15 18:33:53 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-15 18:33:53 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-15 18:33:53 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-15 18:33:53 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-15 18:33:53 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-15 18:33:53 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-15 18:33:53 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-15 18:33:53 +0100
+
+
+Started GET "/assets/rounds.js?body=1" for 127.0.0.1 at 2015-02-15 18:33:53 +0100
+
+
+Started GET "/assets/rundes.js?body=1" for 127.0.0.1 at 2015-02-15 18:33:53 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-02-15 18:33:53 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-15 18:33:53 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-02-15 18:33:53 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-15 18:33:53 +0100
+
+
+Started POST "/sessions/new" for 127.0.0.1 at 2015-02-15 18:33:58 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4jGp9jq91ov/7MLqSchNGk9Wqcs3q0GRNOrPs3MYUPk=", "email"=>"phi.ri@gmx.de", "password"=>"[FILTERED]", "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = 'phi.ri@gmx.de' LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 86ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-15 18:33:58 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 85ms (Views: 84.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-15 18:33:58 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-15 18:33:58 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-15 18:33:58 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-15 18:33:58 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-15 18:33:58 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-15 18:33:58 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-15 18:33:58 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-15 18:33:58 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-15 18:33:58 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-15 18:33:58 +0100
+
+
+Started GET "/assets/rounds.js?body=1" for 127.0.0.1 at 2015-02-15 18:33:58 +0100
+
+
+Started GET "/assets/rundes.js?body=1" for 127.0.0.1 at 2015-02-15 18:33:58 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-02-15 18:33:58 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-15 18:33:58 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-02-15 18:33:58 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-15 18:33:58 +0100
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-02-15 18:34:26 +0100
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (15.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 100ms (Views: 98.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-16 13:49:59 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 493ms (Views: 472.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-16 13:50:01 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-16 13:50:01 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-16 13:50:01 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-16 13:50:01 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-16 13:50:01 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-16 13:50:01 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-16 13:50:01 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-16 13:50:01 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-16 13:50:01 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-16 13:50:01 +0100
+
+
+Started GET "/assets/rounds.js?body=1" for 127.0.0.1 at 2015-02-16 13:50:01 +0100
+
+
+Started GET "/assets/rundes.js?body=1" for 127.0.0.1 at 2015-02-16 13:50:01 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-02-16 13:50:01 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-16 13:50:01 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-02-16 13:50:01 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-16 13:50:01 +0100
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-02-16 13:50:50 +0100
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (109.7ms)
+Completed 200 OK in 251ms (Views: 198.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2015-02-16 13:52:34 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 126ms (Views: 125.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sessions/new" for 127.0.0.1 at 2015-02-16 13:52:43 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LQ4TjyK3FE6+OW1wzfi6mzmIvwslWFAePH4GgriOC0k=", "email"=>"phi.ri@gmx.de", "password"=>"[FILTERED]", "commit"=>"Log in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'phi.ri@gmx.de' LIMIT 1
+  Rendered sessions/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 205ms (Views: 85.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-16 13:52:43 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-16 13:52:43 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-16 13:52:43 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-16 13:52:43 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-16 13:52:43 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-16 13:52:43 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-16 13:52:43 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-16 13:52:43 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-16 13:52:43 +0100
+
+
+Started GET "/assets/rounds.js?body=1" for 127.0.0.1 at 2015-02-16 13:52:43 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-16 13:52:43 +0100
+
+
+Started GET "/assets/rundes.js?body=1" for 127.0.0.1 at 2015-02-16 13:52:43 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-02-16 13:52:43 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-16 13:52:43 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-02-16 13:52:43 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-16 13:52:43 +0100
+
+
+Started POST "/sessions/new" for 127.0.0.1 at 2015-02-16 13:52:48 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LQ4TjyK3FE6+OW1wzfi6mzmIvwslWFAePH4GgriOC0k=", "email"=>"phi.ri@gmx.de", "password"=>"[FILTERED]", "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = 'phi.ri@gmx.de' LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 87ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-16 13:52:48 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 112ms (Views: 110.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-16 13:52:48 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-16 13:52:48 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-16 13:52:48 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-16 13:52:48 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-16 13:52:48 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-16 13:52:48 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-16 13:52:48 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-16 13:52:48 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-16 13:52:48 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-16 13:52:48 +0100
+
+
+Started GET "/assets/rounds.js?body=1" for 127.0.0.1 at 2015-02-16 13:52:48 +0100
+
+
+Started GET "/assets/rundes.js?body=1" for 127.0.0.1 at 2015-02-16 13:52:48 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-02-16 13:52:48 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-16 13:52:48 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-02-16 13:52:48 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-16 13:52:48 +0100
+
+
+Started GET "/play" for 127.0.0.1 at 2015-02-16 13:53:53 +0100
+Processing by GamesController#play as HTML
+  Rendered games/play.html.erb within layouts/application (1.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 123ms (Views: 95.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-16 13:53:53 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-16 13:53:53 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-16 13:53:53 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-16 13:53:53 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-16 13:53:53 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-16 13:53:53 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-16 13:53:53 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-16 13:53:53 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-16 13:53:53 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-16 13:53:53 +0100
+
+
+Started GET "/assets/rounds.js?body=1" for 127.0.0.1 at 2015-02-16 13:53:53 +0100
+
+
+Started GET "/assets/rundes.js?body=1" for 127.0.0.1 at 2015-02-16 13:53:53 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-02-16 13:53:53 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-16 13:53:53 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-02-16 13:53:53 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-16 13:53:53 +0100
+
+
+Started DELETE "/sessions/%23%3CActionDispatch::Request::Session:0x007f7792451a08%3E" for 127.0.0.1 at 2015-02-16 13:56:04 +0100
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"LQ4TjyK3FE6+OW1wzfi6mzmIvwslWFAePH4GgriOC0k=", "id"=>"#<ActionDispatch::Request::Session:0x007f7792451a08>"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-16 13:56:04 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 92ms (Views: 91.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-16 13:56:04 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-16 13:56:04 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-16 13:56:04 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-16 13:56:04 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-16 13:56:04 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-16 13:56:04 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-16 13:56:04 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-16 13:56:04 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-16 13:56:04 +0100
+
+
+Started GET "/assets/rounds.js?body=1" for 127.0.0.1 at 2015-02-16 13:56:04 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-16 13:56:04 +0100
+
+
+Started GET "/assets/rundes.js?body=1" for 127.0.0.1 at 2015-02-16 13:56:04 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-02-16 13:56:04 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-16 13:56:04 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-02-16 13:56:04 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-16 13:56:04 +0100
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-02-16 13:56:05 +0100
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 89ms (Views: 87.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2015-02-16 14:01:51 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 85ms (Views: 85.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2015-02-16 14:02:20 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 83ms (Views: 82.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-16 14:02:20 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-16 14:02:20 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-16 14:02:20 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-16 14:02:20 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-16 14:02:20 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-16 14:02:20 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-16 14:02:20 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-16 14:02:20 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-16 14:02:20 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-16 14:02:20 +0100
+
+
+Started GET "/assets/rounds.js?body=1" for 127.0.0.1 at 2015-02-16 14:02:20 +0100
+
+
+Started GET "/assets/rundes.js?body=1" for 127.0.0.1 at 2015-02-16 14:02:20 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-02-16 14:02:20 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-16 14:02:20 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-02-16 14:02:20 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-16 14:02:20 +0100
+
+
+Started POST "/sessions/new" for 127.0.0.1 at 2015-02-16 14:08:34 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LQ4TjyK3FE6+OW1wzfi6mzmIvwslWFAePH4GgriOC0k=", "email"=>"", "password"=>"[FILTERED]", "commit"=>"Log in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = '' LIMIT 1
+  Rendered sessions/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 86ms (Views: 84.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-16 14:08:34 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-16 14:08:34 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-16 14:08:34 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-16 14:08:34 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-16 14:08:34 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-16 14:08:34 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-16 14:08:34 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-16 14:08:34 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-16 14:08:34 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-16 14:08:34 +0100
+
+
+Started GET "/assets/rounds.js?body=1" for 127.0.0.1 at 2015-02-16 14:08:34 +0100
+
+
+Started GET "/assets/rundes.js?body=1" for 127.0.0.1 at 2015-02-16 14:08:34 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-02-16 14:08:34 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-16 14:08:34 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-02-16 14:08:34 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-16 14:08:34 +0100
+
+
+Started POST "/sessions/new" for 127.0.0.1 at 2015-02-16 14:08:42 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LQ4TjyK3FE6+OW1wzfi6mzmIvwslWFAePH4GgriOC0k=", "email"=>"phi.ri@gmx.de", "password"=>"[FILTERED]", "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = 'phi.ri@gmx.de' LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 85ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-16 14:08:42 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 72ms (Views: 71.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-16 14:08:42 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-16 14:08:42 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-16 14:08:42 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-16 14:08:42 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-16 14:08:42 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-16 14:08:42 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-16 14:08:42 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-16 14:08:42 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-16 14:08:42 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-16 14:08:42 +0100
+
+
+Started GET "/assets/rounds.js?body=1" for 127.0.0.1 at 2015-02-16 14:08:42 +0100
+
+
+Started GET "/assets/rundes.js?body=1" for 127.0.0.1 at 2015-02-16 14:08:42 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-02-16 14:08:42 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-16 14:08:42 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-02-16 14:08:42 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-16 14:08:42 +0100
+
+
+Started DELETE "/sessions/%23%3CActionDispatch::Request::Session:0x007f7792c58990%3E" for 127.0.0.1 at 2015-02-16 14:09:15 +0100
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"LQ4TjyK3FE6+OW1wzfi6mzmIvwslWFAePH4GgriOC0k=", "id"=>"#<ActionDispatch::Request::Session:0x007f7792c58990>"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-16 14:09:15 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 84ms (Views: 83.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-16 14:09:15 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-16 14:09:15 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-16 14:09:15 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-16 14:09:15 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-16 14:09:15 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-16 14:09:15 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-16 14:09:15 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-16 14:09:15 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-16 14:09:15 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-16 14:09:15 +0100
+
+
+Started GET "/assets/rounds.js?body=1" for 127.0.0.1 at 2015-02-16 14:09:15 +0100
+
+
+Started GET "/assets/rundes.js?body=1" for 127.0.0.1 at 2015-02-16 14:09:15 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-02-16 14:09:15 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-16 14:09:15 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-02-16 14:09:15 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-16 14:09:15 +0100
+
+
+Started GET "/play" for 127.0.0.1 at 2015-02-16 14:09:18 +0100
+Processing by GamesController#play as HTML
+  Rendered games/play.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 85ms (Views: 84.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-16 14:09:18 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-16 14:09:18 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-16 14:09:18 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-16 14:09:18 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-16 14:09:18 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-16 14:09:18 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-16 14:09:18 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-16 14:09:18 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-16 14:09:18 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-16 14:09:18 +0100
+
+
+Started GET "/assets/rounds.js?body=1" for 127.0.0.1 at 2015-02-16 14:09:18 +0100
+
+
+Started GET "/assets/rundes.js?body=1" for 127.0.0.1 at 2015-02-16 14:09:18 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-02-16 14:09:18 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-16 14:09:18 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-02-16 14:09:18 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-16 14:09:18 +0100
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2015-02-16 14:09:20 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 84ms (Views: 83.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sessions/new" for 127.0.0.1 at 2015-02-16 14:09:28 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LQ4TjyK3FE6+OW1wzfi6mzmIvwslWFAePH4GgriOC0k=", "email"=>"phi.ri@gmx.de", "password"=>"[FILTERED]", "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = 'phi.ri@gmx.de' LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 85ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-16 14:09:28 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 76ms (Views: 75.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-16 14:09:28 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-16 14:09:28 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-16 14:09:28 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-16 14:09:28 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-16 14:09:28 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-16 14:09:28 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-16 14:09:28 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-16 14:09:28 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-16 14:09:28 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-16 14:09:28 +0100
+
+
+Started GET "/assets/rounds.js?body=1" for 127.0.0.1 at 2015-02-16 14:09:28 +0100
+
+
+Started GET "/assets/rundes.js?body=1" for 127.0.0.1 at 2015-02-16 14:09:28 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-02-16 14:09:28 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-16 14:09:28 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-02-16 14:09:28 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-16 14:09:28 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-16 14:09:56 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 104ms (Views: 103.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-16 14:09:56 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-16 14:09:56 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-16 14:09:56 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-16 14:09:56 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-16 14:09:56 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-16 14:09:56 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-16 14:09:56 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-16 14:09:56 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-16 14:09:56 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-16 14:09:56 +0100
+
+
+Started GET "/assets/rounds.js?body=1" for 127.0.0.1 at 2015-02-16 14:09:56 +0100
+
+
+Started GET "/assets/rundes.js?body=1" for 127.0.0.1 at 2015-02-16 14:09:56 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-02-16 14:09:56 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-16 14:09:56 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-02-16 14:09:56 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-16 14:09:56 +0100
+
+
+Started DELETE "/sessions/%23%3CActionDispatch::Request::Session:0x007f77927dd1e0%3E" for 127.0.0.1 at 2015-02-16 14:12:58 +0100
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"LQ4TjyK3FE6+OW1wzfi6mzmIvwslWFAePH4GgriOC0k=", "id"=>"#<ActionDispatch::Request::Session:0x007f77927dd1e0>"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-16 14:12:58 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 82ms (Views: 81.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-16 14:12:58 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-16 14:12:58 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-16 14:12:58 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-16 14:12:58 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-16 14:12:58 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-16 14:12:58 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-16 14:12:58 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-16 14:12:58 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-16 14:12:58 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-16 14:12:58 +0100
+
+
+Started GET "/assets/rounds.js?body=1" for 127.0.0.1 at 2015-02-16 14:12:58 +0100
+
+
+Started GET "/assets/rundes.js?body=1" for 127.0.0.1 at 2015-02-16 14:12:58 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-02-16 14:12:58 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-16 14:12:58 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-02-16 14:12:58 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-16 14:12:58 +0100
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-02-16 14:12:59 +0100
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 77ms (Views: 76.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2015-02-16 14:13:42 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LQ4TjyK3FE6+OW1wzfi6mzmIvwslWFAePH4GgriOC0k=", "user"=>{"name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered users/new.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 86ms (Views: 83.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-16 14:13:42 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-16 14:13:42 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-16 14:13:42 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-16 14:13:42 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-16 14:13:42 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-16 14:13:42 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-16 14:13:42 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-16 14:13:42 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-16 14:13:42 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-16 14:13:42 +0100
+
+
+Started GET "/assets/rounds.js?body=1" for 127.0.0.1 at 2015-02-16 14:13:42 +0100
+
+
+Started GET "/assets/rundes.js?body=1" for 127.0.0.1 at 2015-02-16 14:13:42 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-02-16 14:13:42 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-16 14:13:42 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-02-16 14:13:42 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-16 14:13:42 +0100
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2015-02-16 14:15:01 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 83ms (Views: 82.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-16 14:15:01 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-16 14:15:01 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-16 14:15:01 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-16 14:15:01 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-16 14:15:01 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-16 14:15:01 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-16 14:15:01 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-16 14:15:01 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-16 14:15:01 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-16 14:15:01 +0100
+
+
+Started GET "/assets/rounds.js?body=1" for 127.0.0.1 at 2015-02-16 14:15:01 +0100
+
+
+Started GET "/assets/rundes.js?body=1" for 127.0.0.1 at 2015-02-16 14:15:01 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-02-16 14:15:01 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-16 14:15:01 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-02-16 14:15:01 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-16 14:15:01 +0100
+
+
+Started POST "/sessions/new" for 127.0.0.1 at 2015-02-16 14:15:08 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LQ4TjyK3FE6+OW1wzfi6mzmIvwslWFAePH4GgriOC0k=", "email"=>"phi.ri@gmx.de", "password"=>"[FILTERED]", "commit"=>"Log in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'phi.ri@gmx.de' LIMIT 1
+Redirected to http://localhost:3000/
+Completed 302 Found in 87ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-16 14:15:08 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 78ms (Views: 77.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-16 14:15:08 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-16 14:15:08 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-16 14:15:08 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-16 14:15:08 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-16 14:15:08 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-16 14:15:08 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-16 14:15:08 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-16 14:15:08 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-16 14:15:08 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-16 14:15:08 +0100
+
+
+Started GET "/assets/rounds.js?body=1" for 127.0.0.1 at 2015-02-16 14:15:08 +0100
+
+
+Started GET "/assets/rundes.js?body=1" for 127.0.0.1 at 2015-02-16 14:15:08 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-02-16 14:15:08 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-16 14:15:08 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-02-16 14:15:08 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-16 14:15:08 +0100
+
+
+Started DELETE "/sessions/%23%3CActionDispatch::Request::Session:0x007f77914cd910%3E" for 127.0.0.1 at 2015-02-16 14:38:31 +0100
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"LQ4TjyK3FE6+OW1wzfi6mzmIvwslWFAePH4GgriOC0k=", "id"=>"#<ActionDispatch::Request::Session:0x007f77914cd910>"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-16 14:38:31 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 82ms (Views: 81.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-16 14:38:31 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-16 14:38:31 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-16 14:38:31 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-16 14:38:31 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-16 14:38:31 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-16 14:38:31 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-16 14:38:31 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-16 14:38:31 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-16 14:38:31 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-16 14:38:31 +0100
+
+
+Started GET "/assets/rounds.js?body=1" for 127.0.0.1 at 2015-02-16 14:38:31 +0100
+
+
+Started GET "/assets/rundes.js?body=1" for 127.0.0.1 at 2015-02-16 14:38:31 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-02-16 14:38:31 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-16 14:38:31 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-02-16 14:38:31 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-16 14:38:31 +0100
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-02-16 14:38:32 +0100
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 83ms (Views: 82.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-02-16 14:38:32 +0100
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 79ms (Views: 78.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2015-02-16 14:38:39 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 96ms (Views: 95.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-16 17:07:17 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 79ms (Views: 78.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-16 17:07:17 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-16 17:07:17 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-16 17:07:17 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-16 17:07:17 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-16 17:07:17 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-16 17:07:17 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-16 17:07:17 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-16 17:07:17 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-16 17:07:17 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-16 17:07:17 +0100
+
+
+Started GET "/assets/rounds.js?body=1" for 127.0.0.1 at 2015-02-16 17:07:17 +0100
+
+
+Started GET "/assets/rundes.js?body=1" for 127.0.0.1 at 2015-02-16 17:07:17 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-02-16 17:07:17 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-16 17:07:17 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-02-16 17:07:17 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-16 17:07:17 +0100
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-02-16 17:07:20 +0100
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 83ms (Views: 82.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2015-02-16 17:07:21 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 77ms (Views: 76.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-02-16 17:07:22 +0100
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 84ms (Views: 83.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2015-02-16 17:07:23 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 77ms (Views: 77.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-02-16 17:07:24 +0100
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 80ms (Views: 79.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2015-02-16 17:07:25 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 81ms (Views: 80.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-02-16 17:07:26 +0100
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 87ms (Views: 85.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2015-02-16 17:07:27 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 81ms (Views: 80.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-02-16 17:07:28 +0100
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 82ms (Views: 81.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2015-02-16 17:07:31 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 78ms (Views: 77.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-16 17:07:40 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 81ms (Views: 80.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-16 17:07:40 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-16 17:07:40 +0100
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-16 17:07:40 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-16 17:07:40 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-16 17:07:40 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-16 17:07:40 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-16 17:07:40 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-16 17:07:40 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-16 17:07:40 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-16 17:07:40 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-16 17:07:40 +0100
+
+
+Started GET "/assets/rounds.js?body=1" for 127.0.0.1 at 2015-02-16 17:07:40 +0100
+
+
+Started GET "/assets/rundes.js?body=1" for 127.0.0.1 at 2015-02-16 17:07:40 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-16 17:07:40 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-02-16 17:07:40 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-02-16 17:07:40 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateGames (20150216165022)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "games" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150216165022"]]
+  [1m[36m (193.6ms)[0m  [1mcommit transaction[0m
+Migrating to CreateRounds (20150216165226)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "rounds" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "character" varchar(255), "points" integer, "round_count" integer, "created_at" datetime, "updated_at" datetime) [0m
+SQLite3::SQLException: table "rounds" already exists: CREATE TABLE "rounds" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "character" varchar(255), "points" integer, "round_count" integer, "created_at" datetime, "updated_at" datetime) 
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateRounds (20150216165226)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mCREATE TABLE "rounds" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "character" varchar(255), "points" integer, "round_count" integer, "created_at" datetime, "updated_at" datetime) [0m
+SQLite3::SQLException: table "rounds" already exists: CREATE TABLE "rounds" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "character" varchar(255), "points" integer, "round_count" integer, "created_at" datetime, "updated_at" datetime) 
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateRounds (20150216165226)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mCREATE TABLE "rounds" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "character" varchar(255), "points" integer, "round_count" integer, "created_at" datetime, "updated_at" datetime) [0m
+SQLite3::SQLException: table "rounds" already exists: CREATE TABLE "rounds" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "character" varchar(255), "points" integer, "round_count" integer, "created_at" datetime, "updated_at" datetime) 
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateRounds (20150216165226)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mDROP TABLE "rounds"[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "rounds" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "character" varchar(255), "points" integer, "round_count" integer, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150216165226"]]
+  [1m[35m (114.7ms)[0m  commit transaction
+Migrating to CreateSolutions (20150216165348)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "solutions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "solution" varchar(255), "category" varchar(255), "is_correct" boolean, "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150216165348"]]
+  [1m[35m (107.3ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
