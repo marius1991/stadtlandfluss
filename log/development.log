@@ -24287,3 +24287,127 @@ Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-02-16 18:29:39 +01
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-16 18:29:39 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-16 18:47:43 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (23.6ms)
+Completed 200 OK in 443ms (Views: 433.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2015-02-16 18:47:44 +0100
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-02-16 18:47:44 +0100
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2015-02-16 18:47:44 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-16 18:47:44 +0100
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-16 18:47:44 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-16 18:47:44 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-16 18:47:44 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-16 18:47:44 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-16 18:47:44 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-16 18:47:44 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-16 18:47:44 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-16 18:47:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-16 18:47:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-16 18:47:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-16 18:47:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-16 18:47:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-16 18:47:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-16 18:47:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-16 18:47:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-16 18:47:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-16 18:47:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-16 18:47:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-16 18:47:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-16 18:47:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-16 18:47:44 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-16 18:47:44 +0100
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-16 18:47:44 +0100
+
+
+Started GET "/assets/rounds.js?body=1" for 127.0.0.1 at 2015-02-16 18:47:44 +0100
+
+
+Started GET "/assets/rundes.js?body=1" for 127.0.0.1 at 2015-02-16 18:47:44 +0100
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-02-16 18:47:44 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-16 18:47:44 +0100
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-02-16 18:47:44 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-16 18:47:44 +0100
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2015-02-16 18:47:46 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 262ms (Views: 261.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-02-16 18:47:47 +0100
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (40.6ms)
+Completed 200 OK in 348ms (Views: 309.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-02-16 18:47:48 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 264ms (Views: 263.8ms | ActiveRecord: 0.0ms)
