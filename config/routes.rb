@@ -1,10 +1,16 @@
 Rails.application.routes.draw do
     
+<<<<<<< HEAD
   get 'welcome/regeln'
 
   get 'welcome/impressum'
 
   get 'welcome/ueber_uns'
+=======
+  resources :solutions
+
+  resources :games
+>>>>>>> master
 
   resources :rounds
   resources :sessions

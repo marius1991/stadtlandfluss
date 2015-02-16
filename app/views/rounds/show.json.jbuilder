@@ -1,1 +1,1 @@
-json.extract! @round, :id, :character, :city, :country, :river, :points, :created_at, :updated_at
+json.extract! @round, :id, :character, :points, :roundcount, :created_at, :updated_at
