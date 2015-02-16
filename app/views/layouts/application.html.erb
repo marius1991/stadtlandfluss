@@ -38,21 +38,22 @@
 </head>
 <body>
 
-<div class="navbar navbar-default navbar-static-top">
+<nav class="navbar navbar-inverse">
   <div class="container">
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-    <a class="navbar-brand" href=<%=welcome_index_path%> >Stadt-Land-Fluss</a>
+    <a class="navbar-brand" href=<%=welcome_index_path%> ><p><%= image_tag("logo.png", size: "20x20", alt: "Logo") %></p></a>
+    <a class="navbar-brand" href=<%=welcome_index_path%> >Stadt Land Fluss</a>
     <div class="navbar-collapse collapse navbar-responsive-collapse">
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav ">
         <% if current_user.nil? %>
             <li><%= link_to "Login", sessions_new_path %></li>
         <% else %>
             <li><a>Eingeloggt als <%= current_user.name %></a></li>
-            <li><%= link_to "Logout", session_path( session ), :method => :delete  %></li>
+            <li><%= link_to "Logout", session_path( session ), :method => :delete,  data: { confirm: "Wollen Sie sich wirklich ausloggen?" } %></li>
         <% end %>
         <% if current_user.nil? %>
             <li><%= link_to "Registrierung", users_new_path %></li>
@@ -60,7 +61,7 @@
       </ul>
     </div>
   </div>
-</div>
+</nav>
 
 <div class="container">
   <div class="row">
