@@ -10,7 +10,9 @@
 <nav>
     <% if current_user.nil? %>
       <%= link_to "Login", sessions_new_path %>
-    <% else %>
+    <% else %>wqwsaq
+
+
       Eingeloggt als <%= current_user.name %>.
       <%= link_to "Logout", session_path( session ), :method => :delete %>
     <% end %>
