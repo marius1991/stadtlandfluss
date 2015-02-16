@@ -6,4 +6,19 @@ class WelcomeControllerTest < ActionController::TestCase
     assert_response :success
   end
 
+  test "should get ueber_uns" do
+    get :ueber_uns
+    assert_response :success
+  end
+
+  test "should get impressum" do
+    get :impressum
+    assert_response :success
+  end
+
+  test "should get regeln" do
+    get :regeln
+    assert_response :success
+  end
+
 end
