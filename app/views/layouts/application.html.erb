@@ -51,7 +51,7 @@
         <% if current_user.nil? %>
             <li><%= link_to "Login", sessions_new_path %></li>
         <% else %>
-            <li>Eingeloggt als <%= current_user.name %></li>
+            <li><a>Eingeloggt als <%= current_user.name %></a></li>
             <li><%= link_to "Logout", session_path( session ), :method => :delete  %></li>
         <% end %>
         <% if current_user.nil? %>
