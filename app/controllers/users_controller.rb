@@ -7,6 +7,7 @@ class UsersController < ApplicationController
     if @user.save
       flash[:notice] = 'Erfolgreich registriert!'
       redirect_to root_url#, :notice => "Erfolgreich angemeldet!"
+      UserMailer.signup_confirmation(@user).deliver
     else
       render "new" #Mal als symbol probieren
     end
