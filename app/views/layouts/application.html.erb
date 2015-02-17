@@ -38,8 +38,8 @@
 </head>
 <body>
 
-<nav class="navbar navbar-default">
-  <div class="container">
+<nav class="navbar navbar-default" role="navigation">
+  <div class="navbar-header">
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
@@ -47,6 +47,7 @@
     </button>
     <a class="navbar-brand" href=<%=welcome_index_path%> ><p><%= image_tag("logo.png", size: "20x20", alt: "Logo") %></p></a>
     <a class="navbar-brand" href=<%=welcome_index_path%> >Stadt Land Fluss</a>
+  </div>
     <div class="navbar-collapse collapse navbar-responsive-collapse">
       <ul class="nav navbar-nav ">
         <% if current_user.nil? %>
@@ -59,7 +60,6 @@
             <li><%= link_to "Registrierung", users_new_path %></li>
         <% end %>
       </ul>
-    </div>
   </div>
 </nav>
 
@@ -73,7 +73,6 @@
       <div class="well sidebar-nav">
         <h3>Weiteres</h3>
         <ul class="nav nav-list">
-          <li class="nav-header"></li>
           <li><%= link_to "Regeln", welcome_regeln_path  %></li>
           <li><%= link_to "Über uns", welcome_ueber_uns_path  %></li>
           <li><%= link_to "Impressum", welcome_impressum_path  %></li>
