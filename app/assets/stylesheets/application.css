@@ -18,3 +18,53 @@
  */
 
 /* Your stylesheets goes here... */
+
+body {
+ background-color: #DADADA;
+}
+
+/* navbar */
+.navbar-default {
+    background-color: #333333;
+    border-color: #333333;
+}
+/* title */
+.navbar-default .navbar-brand {
+    color: #ffffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #ffffff;
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #ffffff;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color: #ffffff;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #D5D5D5;
+}
+/* sidebar-nav */
+.well {
+    background-color: #333333;
+    color: #ffffff;
+}
+.nav-list > li > a {
+    color: #ffffff;
+}
+.nav-list > li > a:hover,
+.nav-list > li > a:focus {
+    color: #333333;
+}
