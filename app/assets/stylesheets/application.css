@@ -19,8 +19,11 @@
 
 /* Your stylesheets goes here... */
 
+
 body {
- background-color: #DADADA;
+    background-color: #DADADA;
+    background-image: url("wolke.jpg");
+    color: #ffffff;
 }
 
 /* navbar */
@@ -34,7 +37,7 @@ body {
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-    color: #ffffff;
+    color: cornflowerblue;
 }
 /* link */
 .navbar-default .navbar-nav > li > a {
@@ -42,7 +45,7 @@ body {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #ffffff;
+    color: cornflowerblue;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
@@ -60,6 +63,7 @@ body {
 .well {
     background-color: #333333;
     color: #ffffff;
+    border-color: #333333;
 }
 .nav-list > li > a {
     color: #ffffff;
