@@ -72,3 +72,9 @@ body {
 .nav-list > li > a:focus {
     color: #333333;
 }
+
+footer {
+    display: block;
+    position: fixed;
+    bottom: 20px;
+}
