@@ -1,6 +1,6 @@
 class User < ActiveRecord::Base
-  belongs_to :game
-  has_many :rounds
+  #belongs_to :game
+  #has_many :rounds
 
   validates :name ,
             :presence => {:message => "cant be blank"},
