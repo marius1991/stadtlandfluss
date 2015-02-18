@@ -5,6 +5,8 @@ Rails.application.routes.draw do
   get 'welcome/impressum'
 
   get 'welcome/ueber_uns'
+  
+  resources :players
 
   resources :solutions
 
