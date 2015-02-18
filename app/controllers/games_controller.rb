@@ -5,11 +5,20 @@ class GamesController < ApplicationController
   # GET /games.json
   def index
     @games = Game.all
+    #@games.each do |game|
+    # game.delete if game.players.count >= 4
+    #end
   end
 
   # GET /games/1
   # GET /games/1.json
   def show
+    if @game.players.count >= 4
+      redirect_to games_path,:notice => 'Spiel ist voll!'
+    else
+      user = User.find(session[:user_id])
+      @player = @game.players.create(id: user.id, name: user.name)
+    end
   end
 
   # GET /games/new
@@ -25,16 +34,18 @@ class GamesController < ApplicationController
   # POST /games.json
   def create
     @game = Game.new(game_params)
-
-    respond_to do |format|
+    #respond_to do |format|
       if @game.save
-        format.html { redirect_to @game, notice: 'Game was successfully created.' }
-        format.json { render :show, status: :created, location: @game }
+        flash[:notice] = 'Erfolgreich erstellt'
+        redirect_to game_path(@game)
+        #format.html { redirect_to @game, notice: 'Game was successfully created.' }
+        #format.json { render :show, status: :created, location: @game }
       else
-        format.html { render :new }
-        format.json { render json: @game.errors, status: :unprocessable_entity }
+        render "new"
+        #format.html { render :new }
+        #format.json { render json: @game.errors, status: :unprocessable_entity }
       end
-    end
+    #end
   end
 
   # PATCH/PUT /games/1
@@ -69,6 +80,6 @@ class GamesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def game_params
-      params.require(:game).permit(:name)
+      params.require(:game).permit(:name, :max_round_count)
     end
 end

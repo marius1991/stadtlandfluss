@@ -11,10 +11,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150216165348) do
+ActiveRecord::Schema.define(version: 20150218144329) do
 
   create_table "games", force: true do |t|
     t.string   "name"
+    t.integer  "max_round_count"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "players", force: true do |t|
+    t.string   "name"
+    t.integer  "game_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -25,16 +33,8 @@ ActiveRecord::Schema.define(version: 20150216165348) do
     t.integer  "round_count"
     t.datetime "created_at"
     t.datetime "updated_at"
-  end
-
-  create_table "rundes", force: true do |t|
-    t.string   "buchstabe",  limit: 1, null: false
-    t.string   "stadt"
-    t.string   "land"
-    t.string   "fluss"
-    t.integer  "punkte"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.integer  "user_id"
+    t.integer  "game_id"
   end
 
   create_table "solutions", force: true do |t|
@@ -43,6 +43,7 @@ ActiveRecord::Schema.define(version: 20150216165348) do
     t.boolean  "is_correct"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "round_id"
   end
 
   create_table "users", force: true do |t|
@@ -51,6 +52,7 @@ ActiveRecord::Schema.define(version: 20150216165348) do
     t.string   "password_digest"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "game_id"
   end
 
 end
