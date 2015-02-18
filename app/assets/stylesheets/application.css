@@ -21,7 +21,6 @@
 
 
 body {
-    background-color: #DADADA;
     background-image: url("wolke.jpg");
     color: #ffffff;
 }
@@ -33,7 +32,9 @@ body {
 }
 /* title */
 .navbar-default .navbar-brand {
-    color: #ffffff;
+    color: cornflowerblue;
+    font-family: "Comic Sans MS";
+    font-size: 20px;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
@@ -88,6 +89,7 @@ body {
     background-color: #333333;
     border-color: #333333;
     color: #ffffff;
+    font-size: 13px;
 }
 
 .dropdown-menu >li > a {
@@ -115,4 +117,7 @@ body {
 }
 input {
     color: black;
+}
+.field_with_errors {
+    background-color: transparent;
 }
