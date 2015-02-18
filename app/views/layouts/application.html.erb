@@ -38,28 +38,36 @@
 
 <nav class="navbar navbar-default" role="navigation">
   <div class="container">
-  <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-    <a class="navbar-brand" href=<%=welcome_index_path%> ><p><%= image_tag("logo3.png", size: "80x30", alt: "Logo") %></p></a>
-    <a class="navbar-brand" href=<%=welcome_index_path%> >Stadt-Land-Fluss</a>
-  </div>
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href=<%=welcome_index_path%> ><p><%= image_tag("logo3.png", size: "80x30", alt: "Logo") %></p></a>
+      <a class="navbar-brand" href=<%=welcome_index_path%> >Stadt-Land-Fluss</a>
+    </div>
     <div class="navbar-collapse collapse navbar-responsive-collapse">
       <ul class="nav navbar-nav ">
         <% if current_user.nil? %>
             <li><%= link_to "Login", sessions_new_path %></li>
         <% else %>
-            <li><a>Eingeloggt als <%= current_user.name %></a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                Eingeloggt als <%= current_user.name %>
+                <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Benutzer bearbeiten</a></li>
+              </ul>
+            </li>
             <li><%= link_to "Logout", session_path( session ), :method => :delete,  data: { confirm: "Wollen Sie sich wirklich ausloggen?" } %></li>
         <% end %>
         <% if current_user.nil? %>
             <li><%= link_to "Registrierung", users_new_path %></li>
         <% end %>
       </ul>
-  </div>
+    </div>
   </div>
 </nav>
 

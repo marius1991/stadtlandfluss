@@ -80,3 +80,36 @@ body {
     background-color: green;
     border-color: #333333;
 }
+.dropdown {
+    background-color: #333333;
+    border-color: #333333;
+}
+.dropdown-menu {
+    background-color: #333333;
+    border-color: #333333;
+    color: #ffffff;
+}
+
+.dropdown-menu >li > a {
+    background-color: #333333;
+    border-color: #333333;
+    color: #ffffff;
+}
+
+.dropdown-menu >li > a:hover,
+.dropdown-menu >li > a:focus {
+    background-color: #333333;
+    border-color: #333333;
+    color: cornflowerblue;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    background-color: #333333;
+    border-color: #333333;
+    color: #ffffff;
+}
+.navbar-default .navbar-nav .open .dropdown-menu >li > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu >li > a:focus {
+    background-color: #333333;
+    border-color: #333333;
+    color: cornflowerblue;
+}
