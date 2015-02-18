@@ -2,8 +2,12 @@
 
     <%= form_for @user do |f| %>
       <% if @user.errors.any? %>
-        <div class="error_messages">
-          <h2>Fehler bei der Anmeldung</h2>
+          <div class="alert alert-danger alert-dismissable">
+            <button type="button" class="close" data-dismiss="alert"
+                    aria-hidden="true">
+                    &times;
+            </button>
+            Error ! Change few things.
           <ul>
             <% for message in @user.errors.full_messages %>
               <li><%= message %></li>
@@ -11,21 +15,21 @@
           </ul>
         </div>
       <% end %>
-      <div class="field">
-        <%= f.label :name %><br>
-        <%= f.text_field :name %>
+      <div class="form-group">
+        <%= f.label :name, 'Name'%>
+        <%= f.text_field :name, placeholder: 'Name eingeben', class: "form-control" %>
       </div>
-      <div class="field">
-        <%= f.label :email %><br>
-        <%= f.text_field :email %>
+      <div class="form-group">
+        <%= f.label :emai, 'Email', class:"label1" %>
+        <%= f.text_field :email, placeholder: 'Email eingeben', class: "form-control" %>
       </div>
-      <div class="field">
-        <%= f.label :password %><br>
-        <%= f.password_field :password %>
+      <div class="form-group">
+        <%= f.label :password, 'Passwort', class:"label1" %>
+        <%= f.password_field :password, placeholder: 'Passwort eingeben', class: "form-control" %>
       </div>
-      <div class="field">
-        <%= f.label :password_confirmation %><br>
-        <%= f.password_field :password_confirmation %>
+      <div class="form-group">
+        <%= f.label :password_confirmation, 'Passwort wiederholen', class:"label1" %>
+        <%= f.password_field :password_confirmation, placeholder: 'Passwort wiederholen', class: "form-control" %>
       </div>
       <div class="actions"><%= submit_tag "Registrieren", class:"btn btn-primary" %></div>
     <% end %>
