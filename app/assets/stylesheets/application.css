@@ -72,4 +72,11 @@ body {
 .nav-list > li > a:focus {
     color: #333333;
 }
-
+.btn-default.btn-lg.btn-block {
+    background-color: orange;
+    border-color: #333333;
+}
+.btn-primary.btn-lg.btn-block {
+    background-color: green;
+    border-color: #333333;
+}
