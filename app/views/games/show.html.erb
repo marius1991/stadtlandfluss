@@ -3,7 +3,20 @@
 <p>
   <strong>Name:</strong>
   <%= @game.name %>
+  <strong>Rundenanzahl:</strong>
+  <%= @game.max_round_count %>
+
+  <table>
+        <tr><td>Spieler:</td></tr>
+    <% @game.players.each do |player|  %>
+        <tr>
+            <td><%= player.name %></td>
+        </tr>
+    <% end %>
+  </table>
 </p>
+
+<%= button_tag 'Start!' if  @game.players.count >= 4 %> <br/>
 
 <%= link_to 'Edit', edit_game_path(@game) %> |
 <%= link_to 'Back', games_path %>
