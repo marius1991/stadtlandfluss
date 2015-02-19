@@ -6,6 +6,8 @@
       <th>Character</th>
       <th>Points</th>
       <th>Roundcount</th>
+      <th>Game_id</th>
+      <th>Player_id</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -15,7 +17,9 @@
       <tr>
         <td><%= round.character %></td>
         <td><%= round.points %></td>
-        <td><%= round.roundcount %></td>
+        <td><%= round.round_count %></td>
+        <td><%= round.game_id %></td>
+        <td><%= round.player_id %></td>
         <td><%= link_to 'Show', round %></td>
         <td><%= link_to 'Edit', edit_round_path(round) %></td>
         <td><%= link_to 'Destroy', round, method: :delete, data: { confirm: 'Are you sure?' } %></td>
