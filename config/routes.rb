@@ -77,6 +77,8 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+  post '/ready' => 'games#ready'
+  get 'games/ready' => 'games#isready'
   
   get '/play' => 'games#play'
   post '/play' => 'games#create'

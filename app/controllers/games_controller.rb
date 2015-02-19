@@ -13,11 +13,19 @@ class GamesController < ApplicationController
   # GET /games/1
   # GET /games/1.json
   def show
-    if @game.players.count >= 4
-      redirect_to games_path,:notice => 'Spiel ist voll!'
+    user = User.find(session[:user_id])
+    if @game.players.exists?(user.id)
     else
-      user = User.find(session[:user_id])
-      @player = @game.players.create(id: user.id, name: user.name)
+      if @game.players.count >= 2
+        redirect_to games_path,:notice => 'Spiel ist voll!'
+      else
+        @player = @game.players.create(id: user.id, name: user.name)
+        i = 1
+        @game.max_round_count.times {
+          @round = @game.rounds.create(character: 'a', round_count: i, is_active: true, player_id: @player.id)
+          i= i + 1
+        }
+      end
     end
   end
 
@@ -70,6 +78,14 @@ class GamesController < ApplicationController
       format.html { redirect_to games_url, notice: 'Game was successfully destroyed.' }
       format.json { head :no_content }
     end
+  end
+
+  def ready
+      @game.ready = @game.ready + 1
+  end
+
+  def isReady
+
   end
 
   private
