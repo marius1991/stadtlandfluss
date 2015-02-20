@@ -20,6 +20,8 @@ Rails.application.routes.draw do
   post '/sessions/new' => 'sessions#create'
   get 'users/new'
 
+  post 'rounds/:id/edit' => 'rounds#edit'
+
   get 'welcome/index'
 
   # The priority is based upon order of creation: first created -> highest priority.

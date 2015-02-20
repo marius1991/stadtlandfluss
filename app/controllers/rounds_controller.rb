@@ -10,6 +10,13 @@ class RoundsController < ApplicationController
   # GET /rounds/1
   # GET /rounds/1.json
   def show
+    if  @round.player_id!=current_user.id
+      redirect_to welcome_impressum_path
+    else
+      if @round.is_active==false
+        redirect_to welcome_regeln_path, notice: @round.is_active.to_s
+      end
+    end
   end
 
   # GET /rounds/new
@@ -19,6 +26,15 @@ class RoundsController < ApplicationController
 
   # GET /rounds/1/edit
   def edit
+    @round.city = round_params[:city]
+    @round.country = round_params[:country]
+    @round.river = round_params[:river]
+    @round.is_active = false
+    @round.save
+    if @round.round_count < Game.find(@round.game_id).max_round_count
+      redirect_to round_path(@round.round_count + 1)
+    end
+
   end
 
   # POST /rounds
@@ -69,6 +85,6 @@ class RoundsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def round_params
-      params.require(:round).permit(:character, :points, :roundcount)
+      params.require(:round).permit(:character, :points, :round_count, :city, :country, :river)
     end
 end

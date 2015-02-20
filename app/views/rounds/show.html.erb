@@ -12,8 +12,27 @@
 
 <p>
   <strong>Roundcount:</strong>
-  <%= @round.roundcount %>
+  <%= @round.round_count %>
 </p>
+
+    <div class="table-responsive">
+    <%= form_for @round, method: :post, url: edit_round_path(@round) do |f|%>
+    <table class="table">
+      <tr>
+        <td>Stadt</td>
+        <td>Land</td>
+        <td>Fluss</td>
+      </tr>
+      <tr>
+        <td><%= f.text_field "city"%></td>
+        <td><%= f.text_field "country" %></td>
+        <td><%= f.text_field "river" %></td>
+      </tr>
+    </table>
+      </div>
+      <%= submit_tag "Nächste Runde!" %>
+    <% end %>
+
 
 <%= link_to 'Edit', edit_round_path(@round) %> |
 <%= link_to 'Back', rounds_path %>

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150219151053) do
+ActiveRecord::Schema.define(version: 20150220143751) do
 
   create_table "games", force: true do |t|
     t.string   "name"
@@ -39,6 +39,19 @@ ActiveRecord::Schema.define(version: 20150219151053) do
     t.boolean  "is_active"
     t.integer  "player_id"
     t.integer  "points"
+    t.string   "city"
+    t.string   "country"
+    t.string   "river"
+  end
+
+  create_table "rundes", force: true do |t|
+    t.string   "buchstabe",  limit: 1, null: false
+    t.string   "stadt"
+    t.string   "land"
+    t.string   "fluss"
+    t.integer  "punkte"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "solutions", force: true do |t|
