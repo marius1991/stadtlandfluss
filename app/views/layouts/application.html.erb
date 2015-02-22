@@ -44,11 +44,14 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href=<%=welcome_index_path%> ><p><%= image_tag("logo3.png", size: "80x28", alt: "Logo") %></p></a>
+      <a class="navbar-brand" href=<%=welcome_index_path%> ><p><%= image_tag("image.png", size: "85x30", alt: "Logo") %></p></a>
       <a class="navbar-brand" href=<%=welcome_index_path%> >Stadt-Land-Fluss</a>
     </div>
     <div class="navbar-collapse collapse navbar-responsive-collapse">
       <ul class="nav navbar-nav ">
+        <li><%= link_to "Regeln", welcome_regeln_path  %></li>
+        <li><%= link_to "Über uns", welcome_ueber_uns_path  %></li>
+        <li><%= link_to "Impressum", welcome_impressum_path %></li>
         <% if current_user.nil? %>
             <li><%= link_to "Login", sessions_new_path %></li>
         <% else %>
@@ -72,25 +75,26 @@
 </nav>
 
 <div class="container">
+  <div class="innercontainer">
   <div class="row">
     <div class="col-lg-9">
       <%= bootstrap_flash %>
       <%= yield %>
+      <p></p>
     </div>
-    <div class="col-lg-3">
-      <div class="well sidebar-nav">
-        <ul class="nav nav-list">
-          <li><%= link_to "Regeln", welcome_regeln_path  %></li>
-          <li><%= link_to "Über uns", welcome_ueber_uns_path  %></li>
-          <li><%= link_to "Impressum", welcome_impressum_path  %></li>
-        </ul>
-      </div><!--/.well -->
-    </div><!--/span-->
+  </div>
   </div><!--/row-->
 
-  <footer>
-    <p>&copy; Marco,Marius,Philipp,Tim 2015</p>
-  </footer>
+  <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+    <div class="container">
+    <div>
+      <ul class="nav navbar-nav">
+        <li class="active"><p>&copy; Marco,Marius,Philipp,Tim 2015</p></li>
+        <li><a href="#">SVN</a></li>
+      </ul>
+    </div>
+    </div>
+  </nav>
 
 </div> <!-- /container -->
 

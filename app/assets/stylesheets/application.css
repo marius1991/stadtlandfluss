@@ -30,12 +30,45 @@ body {
     background-color: #333333;
     border-color: #333333;
 }
+
+.navbar-nav {
+    margin: 0;
+}
+
+.navbar-default.navbar-fixed-bottom {
+    height: 20px;
+    min-height: 20px;
+    max-height: 20px;
+    color: #ffffff;
+}
+
+
+.navbar-default.navbar-fixed-bottom > li {
+    color: #ffffff;
+}
+
+.navbar-default.navbar-fixed-bottom > li >p >a {
+    color: #ffffff;
+}
+
+
 /* title */
+
+
 .navbar-default .navbar-brand {
     color: cornflowerblue;
     font-family: "Comic Sans MS";
     font-size: 20px;
 }
+
+.navbar-default .navbar-brand > p > img {
+    background-color: cornflowerblue;
+}
+
+.navbar-default .navbar-brand > p > img:hover {
+    background-color: #ffffff;
+}
+
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
     color: cornflowerblue;
@@ -60,6 +93,7 @@ body {
     color: #555;
     background-color: #D5D5D5;
 }
+
 /* sidebar-nav */
 .well {
     background-color: #333333;
@@ -121,3 +155,16 @@ input {
 .field_with_errors {
     background-color: transparent;
 }
+
+footer {
+    position: relative;
+    margin-top: -7.5em;
+}
+.form-group {
+    max-width: 400px;
+}
+
+.innercontainer {
+    padding-bottom:3em;
+}
+
