@@ -21,14 +21,14 @@
 
 
 body {
-    background-image: url("wolke.jpg");
+    background-image: url("Hintergrund.jpg");
     color: #ffffff;
 }
 
 /* navbar */
 .navbar-default {
-    background-color: #333333;
-    border-color: #333333;
+    background-color: rgba(51, 51, 51, 0.5);
+    border-color: rgba(51, 51, 51, 0.5);
 }
 
 .navbar-nav {
@@ -62,11 +62,12 @@ body {
 }
 
 .navbar-default .navbar-brand > p > img {
-    background-color: cornflowerblue;
+
 }
 
 .navbar-default .navbar-brand > p > img:hover {
-    background-color: #ffffff;
+
+
 }
 
 .navbar-default .navbar-brand:hover,
