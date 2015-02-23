@@ -10,8 +10,8 @@ class RoundsController < ApplicationController
   # GET /rounds/1
   # GET /rounds/1.json
   def show
-    if  @round.player_id!=current_user.id
-      redirect_to welcome_impressum_path
+    if  @round.player_id!=User.find(current_user).id
+      redirect_to welcome_impressum_path notice: "Player_id: " + @round.player_id.to_s + " Currentuser_id: " + current_user.id.to_s
     else
       if @round.is_active==false
         redirect_to welcome_regeln_path, notice: @round.is_active.to_s
@@ -32,15 +32,26 @@ class RoundsController < ApplicationController
     @round.is_active = false
     @round.save
     if @round.round_count < Game.find(@round.game_id).max_round_count
-      redirect_to round_path(@round.round_count + 1)
+      @next_round = Round.find_by(game_id: @round.game_id, player_id: @round.player_id, round_count: @round.round_count + 1)
+      redirect_to round_path(@next_round)
+    else
+      @score = Score.where(user_id: current_user, game_id: @round.game_id).take
+      @player = Player.find(current_user)
+      @player.delete
+      @game = Game.find(@round.game_id)
+      @game.ready = @game.ready + 1
+      redirect_to score_path(@score)
     end
-
   end
 
   # POST /rounds
   # POST /rounds.json
   def create
     @round = Round.new(round_params)
+    @game = Game.find(@round.game_id)
+    if @game.rounds.where.not(player_id: current_user.id).take.exists?
+
+    end
 
     respond_to do |format|
       if @round.save

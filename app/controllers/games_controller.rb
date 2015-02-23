@@ -4,7 +4,7 @@ class GamesController < ApplicationController
   # GET /games
   # GET /games.json
   def index
-    @games = Game.all
+    @games = Game.where('ready < ?', 2)
     #@games.each do |game|
     # game.delete if game.players.count >= 4
     #end
@@ -19,7 +19,10 @@ class GamesController < ApplicationController
       if @game.players.count >= 2
         redirect_to games_path,:notice => 'Spiel ist voll!'
       else
+        @game.ready = @game.ready + 1
+        @game.save
         @player = @game.players.create(id: user.id, name: user.name)
+        @points = @game.scores.create(user_id: user.id, username: user.name)
         i = 1
         @game.max_round_count.times {
           @round = @game.rounds.create(character: 'a', round_count: i, is_active: true, player_id: @player.id)
@@ -42,6 +45,7 @@ class GamesController < ApplicationController
   # POST /games.json
   def create
     @game = Game.new(game_params)
+    @game.ready = 0
     #respond_to do |format|
       if @game.save
         flash[:notice] = 'Erfolgreich erstellt'
@@ -78,14 +82,6 @@ class GamesController < ApplicationController
       format.html { redirect_to games_url, notice: 'Game was successfully destroyed.' }
       format.json { head :no_content }
     end
-  end
-
-  def ready
-      @game.ready = @game.ready + 1
-  end
-
-  def isReady
-
   end
 
   private
