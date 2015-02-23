@@ -11,7 +11,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150220143751) do
+ActiveRecord::Schema.define(version: 20150223140049) do
+
+  create_table "cities", force: true do |t|
+    t.string   "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "countries", force: true do |t|
+    t.string   "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "games", force: true do |t|
     t.string   "name"
@@ -28,6 +40,12 @@ ActiveRecord::Schema.define(version: 20150220143751) do
     t.integer  "game_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+  end
+
+  create_table "rivers", force: true do |t|
+    t.string   "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "rounds", force: true do |t|
@@ -52,6 +70,15 @@ ActiveRecord::Schema.define(version: 20150220143751) do
     t.integer  "punkte"
     t.datetime "created_at"
     t.datetime "updated_at"
+  end
+
+  create_table "scores", force: true do |t|
+    t.integer  "points"
+    t.string   "username"
+    t.integer  "user_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "game_id"
   end
 
   create_table "solutions", force: true do |t|
