@@ -14,9 +14,9 @@
     <% end %>
   </table>
 </p>
-
+<%= @game.ready %>
 <p>
-  <% if @game.players.count >= 2 %>
+  <% if @game.ready >= 2 %>
       <%= button_to "Start!", round_path(@game.rounds.where(round_count: 1, player_id: current_user).first), :method => :get %>
   <% else %>
     <%= button_to "Aktualisieren!", game_path(@game), :method => :get %>

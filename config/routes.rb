@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
     
+  resources :scores
+
   get 'welcome/regeln'
 
   get 'welcome/impressum'
