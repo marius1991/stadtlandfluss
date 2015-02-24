@@ -62,16 +62,6 @@ ActiveRecord::Schema.define(version: 20150223140049) do
     t.string   "river"
   end
 
-  create_table "rundes", force: true do |t|
-    t.string   "buchstabe",  limit: 1, null: false
-    t.string   "stadt"
-    t.string   "land"
-    t.string   "fluss"
-    t.integer  "punkte"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
   create_table "scores", force: true do |t|
     t.integer  "points"
     t.string   "username"
