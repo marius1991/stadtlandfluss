@@ -49,10 +49,12 @@ class RoundsController < ApplicationController
   def create
     @round = Round.new(round_params)
     @game = Game.find(@round.game_id)
-    if @game.rounds.where.not(player_id: current_user.id).take.exists?
-
+    if @game.rounds.where(round_count: @round.round_count).not(player_id: current_user.id).take.exists?
+      o_round = @game.rounds.where(round_count: @round.round_count).not(player_id: current_user.id).take
+      @round.character = o_round.character
+    else
+      @round.character = CHARS[rand(26)]
     end
-
     respond_to do |format|
       if @round.save
         format.html { redirect_to @round, notice: 'Round was successfully created.' }
