@@ -2,20 +2,22 @@
 
 
 <% if @games.exists? %>
-    <table>
-      <tbody>
+    <table style="width:100%">
+        <tr>
+          <th><h3>Name</h3></th>
+          <th><h3>Runden</h3></th>
+        </tr>
       <% @games.each do |game| %>
-          <tr>
-            <th><h3><%= game.name %></h3></th>
-            <th><h3><%= game.max_round_count %></h3></th>
-            <td><%= link_to 'Beitreten!', game, class: "btn btn-success" %></td>
-
-          </tr>
+        <tr>
+          <td><h3><%= game.name %></h3></td>
+          <td><h3><%= game.max_round_count %></td>
+          <td><%= button_to 'Beitreten!', game, class: "btn btn-success", :method => :get %></td>
+        </tr>
       <% end %>
-      </tbody>
-    </table>
+      </table>
 <% else %>
     <p class="alert alert-warning">Derzeit gibt es keine laufenden Spiele</p>
     <p> <%= button_to "Aktualisieren!", games_path(@game), :method => :get, class:"btn btn-primary" %> </p>
 <% end %>
+<button type="button" class="btn btn-default btn-xs" onClick="history.go(-1);return true;">Zurück</button>
 

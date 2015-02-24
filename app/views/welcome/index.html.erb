@@ -1,6 +1,10 @@
 <h1>Wilkommen bei Stadt-Land-Fluss</h1>
+
+
+
 <% if current_user.nil? %>
-    <p>Damit Sie gegen Ihre Freunde spielen können, müssen sie registriert und eingeloggt sein</p>
+    <p>Damit Sie gegen einen Freunde spielen können, müssen sie registriert und eingeloggt sein</p>
+    <p>Java-Script muss aktiviert sein!</p>
 <% else %>
     <h2>Hallo <%= current_user.name %>,</h2>
     <form action=<%= new_game_path %> >
@@ -12,3 +16,52 @@
     </form>
     <p></p>
 <% end %>
+<div id="rg-gallery" class="rg-gallery">
+  <div class="rg-thumbs">
+    <!-- Elastislide Carousel Thumbnail Viewer -->
+    <div class="es-carousel-wrapper">
+      <div class="es-nav">
+        <span class="es-nav-prev">Previous</span>
+        <span class="es-nav-next">Next</span>
+      </div>
+      <div class="es-carousel">
+        <ul>
+          <li>
+              <%= link_to image_path("stadt.jpg") do %>
+                  <%= image_tag("stadt.jpg", data: { large: "/images/stadt.jpg" }) %>
+              <% end %>
+          </li>
+          <li>
+            <%= link_to image_path("land.jpg") do %>
+                <%= image_tag("land.jpg", data: { large: "/images/land.jpg" }) %>
+            <% end %>
+          </li>
+          <li>
+            <%= link_to image_path("fluss.jpg") do %>
+                <%= image_tag("fluss.jpg", data: { large: "/images/fluss.jpg" }) %>
+            <% end %>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+    <!-- End Elastislide Carousel Thumbnail Viewer -->
+  </div><!-- rg-thumbs -->
+</div><!-- rg-gallery -->
+<script id="img-wrapper-tmpl" type="text/x-jquery-tmpl">
+	<div class="rg-image-wrapper">
+		{{if itemsCount > 1}}
+			<div class="rg-image-nav">
+				<a href="#" class="rg-image-nav-prev">Previous Image</a>
+				<a href="#" class="rg-image-nav-next">Next Image</a>
+			</div>
+		{{/if}}
+		<div class="rg-image"></div>
+		<div class="rg-loading"></div>
+		<div class="rg-caption-wrapper">
+			<div class="rg-caption" style="display:none;">
+				<p></p>
+			</div>
+		</div>
+	</div>
+</script>
