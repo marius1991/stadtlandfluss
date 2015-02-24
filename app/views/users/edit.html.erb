@@ -2,6 +2,20 @@
 
 
 <%= form_for(@user) do |f| %>
+    <% if @user.errors.any? %>
+        <div class="alert alert-danger alert-dismissable">
+          <button type="button" class="close" data-dismiss="alert"
+                  aria-hidden="true">
+            &times;
+          </button>
+          <p style="font-size:18px">Eingabe überprüfen!</p>
+          <ul>
+            <% for message in @user.errors.full_messages %>
+                <li><%= message %></li>
+            <% end %>
+          </ul>
+        </div>
+    <% end %>
     <div class="form-group">
       <%= f.label :name, "Name" %>
       <%= f.text_field :name, class: 'form-control' %>

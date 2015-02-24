@@ -1,38 +1,46 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Character:</strong>
-  <%= @round.character %>
+  <h3>Buchstabe: <strong><%= @round.character %></strong></h3>
 </p>
 
 <p>
-  <strong>Points:</strong>
-  <%= @round.points %>
+  <h3>Aktuelle Runde: <%= @round.round_count %></h3>
 </p>
 
-<p>
-  <strong>Roundcount:</strong>
-  <%= @round.round_count %>
-</p>
+<script>
 
-    <div class="table-responsive">
-    <%= form_for @round, method: :post, url: edit_round_path(@round) do |f|%>
-    <table class="table">
-      <tr>
-        <td>Stadt</td>
-        <td>Land</td>
-        <td>Fluss</td>
-      </tr>
-      <tr>
-        <td><%= f.text_field "city"%></td>
-        <td><%= f.text_field "country" %></td>
-        <td><%= f.text_field "river" %></td>
-      </tr>
-    </table>
-      </div>
-      <%= submit_tag "Nächste Runde!" %>
-    <% end %>
+    setInterval(function () {document.getElementById("nextRound").click();}, 30000);
+
+</script>
+
+<h3><b id="cID3">   Init<script>countdown(30,'cID3');</script></b><br></h3>
+
+<%= form_for @round, method: :post, html: { class: "form-inline"}, url: edit_round_path(@round) do |f|%>
+    <div id="spieleingabe">
+      <h3>Spielbogen</h3>
+      </br>
+    <div class="form-group" id="stadt">
+      <%= f.label :city, 'Stadt'%>
+      <%= f.text_field "city", class:"form-control"%>
+    </div>
+    <div class="form-group" id="land">
+      <%= f.label :country, 'Land'%>
+      <%= f.text_field "country", class:"form-control"%>
+    </div>
+    <div class="form-group" id="fluss">
+      <%= f.label :river, 'Fluss'%>
+      <%= f.text_field "river", class:"form-control"%>
+    </div>
+    </div></br>
+    <p>Sie haben 30 Sekunden Zeit. Sind Sie schneller fertig können Sie diese Runde manuell beenden!</p>
+    <div class="actions"><%= submit_tag "Nächste Runde!", class:"btn btn-primary", id: "nextRound" %></div>
+<% end %>
 
 
-<%= link_to 'Edit', edit_round_path(@round) %> |
-<%= link_to 'Back', rounds_path %>
+
+
+
+
+
+

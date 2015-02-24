@@ -15,6 +15,11 @@
  */
 /*
  *= require bootstrap_and_overrides
+ *= require gallery/responsive/elastislide
+ *= require gallery/responsive
+ *= require gallery/slideshow
+ *= require gallery/galleria/classic
+ *= require gallery/touch_touch
  */
 
 /* Your stylesheets goes here... */
@@ -135,6 +140,7 @@ input {
 }
 .field_with_errors {
     background-color: transparent;
+    display: flex;
 }
 
 footer {
@@ -152,3 +158,25 @@ footer {
 .label {
     font-size: 15px;
 }
+#spieleingabe {
+    background-color: khaki;
+    border-style: solid;
+    height: 300px
+}
+
+#spieleingabe > h3 {
+    color: #333333;
+}
+
+#stadt {
+    color: #333333;
+}
+
+#land {
+    color: #333333;
+}
+
+#fluss {
+    color: #333333;
+}
+
