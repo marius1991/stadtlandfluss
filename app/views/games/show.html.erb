@@ -1,27 +1,14 @@
+<h1>Spiel: <%= @game.name %></h1>
+<h2>Spieler:</h2>
+<% @game.players.each do |player|  %>
+    <h3>-<%= player.name %></h3>
+<% end %>
 
-<p>
-  <strong>Name:</strong>
-  <%= @game.name %>
-  <strong>Rundenanzahl:</strong>
-  <%= @game.max_round_count %>
 
-  <table>
-        <tr><td>Spieler:</td></tr>
-    <% @game.players.each do |player|  %>
-        <tr>
-            <td><%= player.name %></td>
-        </tr>
-    <% end %>
-  </table>
-</p>
-<%= @game.ready %>
-<p>
-  <% if @game.ready >= 2 %>
-      <%= button_to "Start!", round_path(@game.rounds.where(round_count: 1, player_id: current_user).first), :method => :get %>
-  <% else %>
-    <%= button_to "Aktualisieren!", game_path(@game), :method => :get %>
-  <% end %>
-</p>
+<% if @game.ready >= 2 %>
+    <%= button_to "Spiel starten!", round_path(@game.rounds.where(round_count: 1, player_id: current_user).first), :method => :get, class:"btn btn-primary btn-lg btn-block" %>
+<% else %>
+    <p class="alert alert-warning">Es kann erst gestartet werden, wenn zwei Spieler im Spiel sind</p>
+    <p> <%= button_to "Aktualisieren!", game_path(@game), :method => :get, class:"btn btn-primary" %> </p>
 
-<%= link_to 'Edit', edit_game_path(@game) %> |
-<%= link_to 'Back', games_path %>
+<% end %>
