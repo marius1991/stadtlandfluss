@@ -23,9 +23,15 @@ class GamesController < ApplicationController
         @game.save
         @player = @game.players.create(id: user.id, name: user.name)
         @points = @game.scores.create(user_id: user.id, username: user.name)
+
         i = 1
         @game.max_round_count.times {
-          @round = @game.rounds.create(character: 'a', round_count: i, is_active: true, player_id: @player.id)
+          if @game.rounds.where(round_count: i).where.not(player_id: current_user.id).exists?
+            char =  @game.rounds.where(round_count: i).where.not(player_id: current_user.id).take.character
+          else
+            char = CHARS[rand(26)]
+          end
+          @round = @game.rounds.create(character: char, round_count: i, is_active: true, player_id: @player.id)
           i= i + 1
         }
       end

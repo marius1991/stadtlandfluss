@@ -14,7 +14,7 @@ class ScoresController < ApplicationController
     if @game.ready >= 4
       @own_rounds = @game.rounds.find_by(player_id: current_user.id)
       @opponent_rounds = @game.rounds.where.not(player_id: current_user.id)
-      @own_rounds.rounds.each do |round|
+      @own_rounds.each do |round|
 
       end
     else
