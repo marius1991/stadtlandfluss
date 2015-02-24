@@ -44,14 +44,10 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href=<%=welcome_index_path%> ><p><%= image_tag("LOGO.png", size: "85x30", alt: "Logo") %></p></a>
-      <a class="navbar-brand" href=<%=welcome_index_path%> >Stadt-Land-Fluss</a>
+      <a class="navbar-brand" href=<%=welcome_index_path%> ><p><%= image_tag("LOGO.png", size: "80x32", alt: "Logo") %></p></a>
     </div>
     <div class="navbar-collapse collapse navbar-responsive-collapse">
       <ul class="nav navbar-nav ">
-        <li><%= link_to "Regeln", welcome_regeln_path  %></li>
-        <li><%= link_to "Über uns", welcome_ueber_uns_path  %></li>
-        <li><%= link_to "Impressum", welcome_impressum_path %></li>
         <% if current_user.nil? %>
             <li><%= link_to "Login", sessions_new_path %></li>
         <% else %>
@@ -61,7 +57,7 @@
                 <b class="caret"></b>
               </a>
               <ul class="dropdown-menu">
-                <li><a href="#">Benutzer bearbeiten</a></li>
+                <li><%= link_to "Benutzer bearbeiten", edit_user_path(current_user) %></li>
               </ul>
             </li>
             <li><%= link_to "Logout", session_path( session ), :method => :delete,  data: { confirm: "Wollen Sie sich wirklich ausloggen?" } %></li>
@@ -69,6 +65,9 @@
         <% if current_user.nil? %>
             <li><%= link_to "Registrierung", users_new_path %></li>
         <% end %>
+        <li><%= link_to "Regeln", welcome_regeln_path  %></li>
+        <li><%= link_to "Über uns", welcome_ueber_uns_path  %></li>
+        <li><%= link_to "Impressum", welcome_impressum_path %></li>
       </ul>
     </div>
   </div>
