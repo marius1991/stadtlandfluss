@@ -22,7 +22,7 @@ class GamesController < ApplicationController
         @game.ready = @game.ready + 1
         @game.save
         @player = @game.players.create(id: user.id, name: user.name)
-        @points = @game.scores.create(user_id: user.id, username: user.name)
+        @points = @game.scores.create(points: 0, user_id: user.id, username: user.name)
 
         i = 1
         @game.max_round_count.times {

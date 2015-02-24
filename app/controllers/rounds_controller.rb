@@ -40,6 +40,7 @@ class RoundsController < ApplicationController
       @player.delete
       @game = Game.find(@round.game_id)
       @game.ready = @game.ready + 1
+      @game.save
       redirect_to score_path(@score)
     end
   end

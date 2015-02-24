@@ -11,14 +11,101 @@ class ScoresController < ApplicationController
   # GET /scores/1.json
   def show
     @game = Game.find(@score.game_id)
+    @score.points = 0
     if @game.ready >= 4
-      @own_rounds = @game.rounds.find_by(player_id: current_user.id)
-      @opponent_rounds = @game.rounds.where.not(player_id: current_user.id)
+      @own_rounds = @game.rounds.where(player_id: current_user.id).each
+      @opponent_rounds = @game.rounds.where.not(player_id: current_user.id).each
       @own_rounds.each do |round|
+        if round.city.present?
+          if round.city[0].capitalize != round.character then
+            @score.points = @score.points + 0
+          else
+            #Weiter prüfen:
+            if Citie.exists?(name: round.city.downcase)
+              if round.city.downcase == @opponent_rounds.detect{|o| o.round_count == round.round_count}.city.downcase
+                @score.points = @score.points + 5
+              else
+                if @opponent_rounds.detect{|o| o.round_count == round.round_count}.city.present?
+                  if @opponent_rounds.detect{|o| o.round_count == round.round_count}.city[0].capitalize == round.character
+                    if Citie.exists?(name: @opponent_rounds.detect{|o| o.round_count == round.round_count}.city.downcase)
+                      @score.points = @score.points + 10
+                    else
+                      @score.points = @score.points + 20
+                    end
+                  else
+                    @score.points = @score.points + 20
+                  end
+                else
+                  @score.points = @score.points + 20
+                end
+              end
+            end
+          end
+        else
+          #nichts, Punkte bleiben bei 0
+        end
 
+        if round.country.present?
+          if round.country[0].capitalize != round.character then
+            @score.points = @score.points + 0
+          else
+            #Weiter prüfen:
+            if Countrie.exists?(name: round.country.downcase)
+              if round.country.downcase == @opponent_rounds.detect{|o| o.round_count == round.round_count}.country.downcase
+                @score.points = @score.points + 5
+              else
+                if @opponent_rounds.detect{|o| o.round_count == round.round_count}.country.present?
+                  if @opponent_rounds.detect{|o| o.round_count == round.round_count}.country[0].capitalize == round.character
+                    if Countrie.exists?(name: @opponent_rounds.detect{|o| o.round_count == round.round_count}.country.downcase)
+                      @score.points = @score.points + 10
+                    else
+                      @score.points = @score.points + 20
+                    end
+                  else
+                    @score.points = @score.points + 20
+                  end
+                else
+                  @score.points = @score.points + 20
+                end
+              end
+            end
+          end
+        else
+          #nichts, Punkte bleiben bei 0
+        end
+
+        if round.river.present?
+          if round.river[0].capitalize != round.character then
+            @score.points = @score.points + 0
+          else
+            #Weiter prüfen:
+            if River.exists?(name: round.city.downcase)
+              if round.river.downcase == @opponent_rounds.detect{|o| o.round_count == round.round_count}.river.downcase
+                @score.points = @score.points + 5
+              else
+                if @opponent_rounds.detect{|o| o.round_count == round.round_count}.river.present?
+                  if @opponent_rounds.detect{|o| o.round_count == round.round_count}.river[0].capitalize == round.character
+                    if River.exists?(name: @opponent_rounds.detect{|o| o.round_count == round.round_count}.river.downcase)
+                      @score.points = @score.points + 10
+                    else
+                      @score.points = @score.points + 20
+                    end
+                  else
+                    @score.points = @score.points + 20
+                  end
+                else
+                  @score.points = @score.points + 20
+                end
+              end
+            end
+          end
+        else
+          #nichts, Punkte bleiben bei 0
+        end
+        @score.save
       end
     else
-
+      #Notiz: Der Gegner spielt noch!
     end
   end
 
