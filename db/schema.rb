@@ -11,18 +11,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150223140049) do
+ActiveRecord::Schema.define(version: 20150225174258) do
 
   create_table "cities", force: true do |t|
-    t.string   "name"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.string "name"
   end
 
   create_table "countries", force: true do |t|
-    t.string   "name"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.string "name"
   end
 
   create_table "games", force: true do |t|
@@ -43,9 +39,7 @@ ActiveRecord::Schema.define(version: 20150223140049) do
   end
 
   create_table "rivers", force: true do |t|
-    t.string   "name"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.string "name"
   end
 
   create_table "rounds", force: true do |t|
@@ -62,6 +56,16 @@ ActiveRecord::Schema.define(version: 20150223140049) do
     t.string   "river"
   end
 
+  create_table "rundes", force: true do |t|
+    t.string   "buchstabe",  limit: 1, null: false
+    t.string   "stadt"
+    t.string   "land"
+    t.string   "fluss"
+    t.integer  "punkte"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "scores", force: true do |t|
     t.integer  "points"
     t.string   "username"
@@ -69,6 +73,7 @@ ActiveRecord::Schema.define(version: 20150223140049) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "game_id"
+    t.boolean  "is_calculated"
   end
 
   create_table "solutions", force: true do |t|

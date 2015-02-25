@@ -79,7 +79,7 @@ class ScoresController < ApplicationController
             @score.points = @score.points + 0
           else
             #Weiter prüfen:
-            if River.exists?(name: round.city.downcase)
+            if River.exists?(name: round.river.downcase)
               if round.river.downcase == @opponent_rounds.detect{|o| o.round_count == round.round_count}.river.downcase
                 @score.points = @score.points + 5
               else
@@ -102,6 +102,7 @@ class ScoresController < ApplicationController
         else
           #nichts, Punkte bleiben bei 0
         end
+        @score.is_calculated = true
         @score.save
       end
     else
