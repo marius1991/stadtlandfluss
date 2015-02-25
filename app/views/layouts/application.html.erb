@@ -81,14 +81,34 @@
       <%= yield %>
       <p></p>
     </div>
+    <div class="col-lg-3">
+      <div class="well sidebar-nav">
+        <h2>Highscore</h2>
+        <ul class="nav nav-list">
+          <li class="nav-header"></li>
+          <% i=0 %>
+          <% @users = User.all %>
+          <% @users.each do |user| %>
+                <% @pointz = 0 %>
+                <li>Name: <%= user.name %>, Points:
+                <% @score_points = user.scores.all %>
+                <% @score_points.each do |score| %>
+                <% @pointz = @pointz + score.points %>
+                <% end %>
+                <%= @pointz %></li>
+          <% end %>
+        </ul>
+      </div><!--/.well -->
+    </div><!--/span-->
   </div>
   </div><!--/row-->
+
 
   <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
     <div class="container">
     <div>
       <ul class="nav navbar-nav">
-        <li class="active"><p>&copy; Marco,Marius,Philipp,Tim 2015</p></li>
+        <li class="active"><p>&copy; FH Muenster WE II 2015</p></li>
         <li><a href="#">SVN</a></li>
       </ul>
     </div>
