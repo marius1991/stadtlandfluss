@@ -77,29 +77,45 @@
   <div class="innercontainer">
   <div class="row">
     <div class="col-lg-9">
+      <noscript>
+        <div class= "alertjava">
+        <h3>
+          Diese Seite wird nur mit JavaScript
+          korrekt dargestellt. Bitte schalten
+          Sie JavaScript in Ihrem Browser ein!
+        </h3>
+        </div>
+      </noscript>
       <%= bootstrap_flash %>
       <%= yield %>
       <p></p>
     </div>
+    <% if current_user.nil? %>
+    <% else %>
     <div class="col-lg-3">
       <div class="well sidebar-nav">
-        <h2>Highscore</h2>
         <ul class="nav nav-list">
-          <li class="nav-header"></li>
-          <% i=0 %>
-          <% @users = User.all %>
-          <% @users.each do |user| %>
-                <% @pointz = 0 %>
-                <li>Name: <%= user.name %>, Points:
-                <% @score_points = user.scores.all %>
+          <li class="nav-header"><h3><%= current_user.name %></h3></li>
+            <% @pointz = 0 %>
+            <li>Gesamtpunktzahl:
+                <% @score_points = current_user.scores.all %>
                 <% @score_points.each do |score| %>
                 <% @pointz = @pointz + score.points %>
                 <% end %>
-                <%= @pointz %></li>
-          <% end %>
+                <%= @pointz %>
+            </li>
+            <% @countz = 0 %>
+            <li>Gespielte Spiele:
+                <% @score_count = current_user.scores.all %>
+                <% @score_count.each do |count| %>
+                <% @countz = @countz + 1 %>
+                <% end %>
+               <%= @countz %>
+            </li>
         </ul>
       </div><!--/.well -->
     </div><!--/span-->
+    <% end %>
   </div>
   </div><!--/row-->
 

@@ -1,19 +1,26 @@
-<p id="notice"><%= notice %></p>
+<h1>Spiel: <%= @game.name %></h1>
+<% @scores_all = Score.all %>
 
-<p>
-  <strong>Points:</strong>
-  <%= @score.points %>
-</p>
+<% if @game.scores.where.not(user_id: current_user.id).take.is_calculated == false %>
+    <p class="alert alert-warning">Bitte warten Sie bis
+      <%= @gegner_name = @scores_all.where(game_id: @game.id).where.not(user_id: current_user.id).first.username  %>
+    das Spiel beendet hat und die Punkte berechnet wurden</p>
+    <p> <%= button_to "Aktualisieren!", score_path(@score), :method => :get, class:"btn btn-primary" %> </p>
+<% else %>
+      <h3>Deine Punktzahl: <%= @score.points %></h3>
+      <h3>Punktzahl des Gegners: <%= @gegner_score = @scores_all.where(game_id: @game.id).where.not(user_id: current_user.id).first.points %></h3>
+        <% if @score.points < @gegner_score %>
+            <p class="alert alert-danger">VERLOREN!</p>
+        <% end %>
+        <% if @score.points == @gegner_score %>
+            <p class="alert alert-info">UNENTSCHIEDEN!</p>
+        <% end %>
+        <% if @score.points > @gegner_score %>
+            <p class="alert alert-success">GEWONNEN!</p>
+        <% end %>
+    <% end %>
 
-<p>
-  <strong>Username:</strong>
-  <%= @score.username %>
-</p>
+<%= button_to "Zurück zur Übersicht", root_path, clas:"btn btn-default btn-xs", method: "get" %>
 
-<p>
-  <strong>User:</strong>
-  <%= @score.user_id %>
-</p>
 
-<%= link_to 'Edit', edit_score_path(@score) %> |
-<%= link_to 'Back', scores_path %>
+

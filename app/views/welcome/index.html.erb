@@ -3,8 +3,8 @@
 
 
 <% if current_user.nil? %>
-    <p>Damit Sie gegen einen Freunde spielen können, müssen sie registriert und eingeloggt sein</p>
-    <p>Java-Script muss aktiviert sein!</p>
+    <p>Damit Sie gegen einen Freunde spielen können, müssen Sie registriert und eingeloggt sein</p>
+    </p>
 <% else %>
     <h2>Hallo <%= current_user.name %>,</h2>
     <form action=<%= new_game_path %> >
