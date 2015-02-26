@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
     
+  devise_for :users
   resources :scores
 
   get 'welcome/regeln'
@@ -15,11 +16,10 @@ Rails.application.routes.draw do
   resources :games
 
   resources :rounds
-  resources :sessions
   resources :users
   
-  get 'sessions/new'
-  post '/sessions/new' => 'sessions#create'
+  #get 'sessions/new'
+  #post '/sessions/new' => 'sessions#create'
   get 'users/new'
 
   post 'rounds/:id/edit' => 'rounds#edit'

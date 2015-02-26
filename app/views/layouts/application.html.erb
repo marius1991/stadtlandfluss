@@ -49,21 +49,21 @@
     <div class="navbar-collapse collapse navbar-responsive-collapse">
       <ul class="nav navbar-nav ">
         <% if current_user.nil? %>
-            <li><%= link_to "Login", sessions_new_path %></li>
+            <li><%= link_to "Login", new_user_session_path %></li>
         <% else %>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                Eingeloggt als <%= current_user.name %>
+                Eingeloggt als <%= current_user.username %>
                 <b class="caret"></b>
               </a>
               <ul class="dropdown-menu">
-                <li><%= link_to "Benutzer bearbeiten", edit_user_path(current_user) %></li>
+                <li><%= link_to "Benutzer bearbeiten", edit_user_registration_path %></li>
               </ul>
             </li>
-            <li><%= link_to "Logout", session_path( session ), :method => :delete,  data: { confirm: "Wollen Sie sich wirklich ausloggen?" } %></li>
+            <li><%= link_to "Logout", destroy_user_session_path, :method => :delete,  data: { confirm: "Wollen Sie sich wirklich ausloggen?" } %></li>
         <% end %>
         <% if current_user.nil? %>
-            <li><%= link_to "Registrierung", users_new_path %></li>
+            <li><%= link_to "Registrierung", new_user_registration_path %></li>
         <% end %>
         <li><%= link_to "Regeln", welcome_regeln_path  %></li>
         <li><%= link_to "Über uns", welcome_ueber_uns_path  %></li>
@@ -95,7 +95,7 @@
     <div class="col-lg-3">
       <div class="well sidebar-nav">
         <ul class="nav nav-list">
-          <li class="nav-header"><h3><%= current_user.name %></h3></li>
+          <li class="nav-header"><h3><%= current_user.username %></h3></li>
             <% @pointz = 0 %>
             <li>Gesamtpunktzahl:
                 <% @score_points = current_user.scores.all %>
