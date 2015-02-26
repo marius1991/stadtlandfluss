@@ -1,3 +1,18 @@
+    <% if @game.errors.any? %>
+        <div class="alert alert-danger alert-dismissable">
+          <button type="button" class="close" data-dismiss="alert"
+                  aria-hidden="true">
+            &times;
+          </button>
+          <p style="font-size:18px">Eingabe überprüfen!</p>
+          <ul>
+            <% for message in @game.errors.full_messages %>
+                <li><%= message %></li>
+            <% end %>
+          </ul>
+        </div>
+    <% end %>
+
 <h1>Neues Spiel starten</h1>
 
 <%= form_for @game do |f| %>

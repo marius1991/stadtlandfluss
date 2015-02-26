@@ -56,5 +56,25 @@ de:
       not_found: "nicht gefunden"
       not_locked: "ist nicht gesperrt"
       not_saved:
-        one: "Konnte %{resource} nicht speichern: ein Fehler."
-        other: "Konnte %{resource} nicht speichern: %{count} Fehler."
+        one: "Registrierung nicht möglich"
+        other: "Registrierung nicht möglich: %{count} Fehler."
+      empty: "darf nicht leer sein."
+      blank: "darf nicht leer sein."
+      taken: "wird bereits verwendet."
+      too_long: "ist zu lang"
+      too_short: "ist zu kurz, Minimum: 8 Zeichen."
+  activerecord:
+      attributes:
+        game:
+          max_round_count: "Rundenanzahl"
+        user:
+          username: "Benutzername"
+          password_confirmation: "E-Mail Bestätigung"
+          password: "Passwort"
+          current_password: "Aktuelles Passwort"
+      errors:
+        models:
+          game:
+            attributes:
+              max_round_count:
+                inclusion: "muss zwischen 1 und 4 liegen!"
