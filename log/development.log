@@ -62239,3 +62239,4538 @@ Started GET "/assets/jquery/jquery.tmpl.min.js?body=1" for 127.0.0.1 at 2015-02-
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-26 16:18:54 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-26 16:29:37 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (86.8ms)
+Completed 200 OK in 586ms (Views: 563.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:38 +0100
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:38 +0100
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:38 +0100
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:38 +0100
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:38 +0100
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:38 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:38 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:38 +0100
+
+
+Started GET "/assets/scores.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:38 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:38 +0100
+
+
+Started GET "/assets/solutions.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:38 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:38 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:38 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:38 +0100
+
+
+Started GET "/assets/gallery/responsive/elastislide.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:38 +0100
+
+
+Started GET "/assets/gallery/responsive.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:38 +0100
+
+
+Started GET "/assets/gallery/slideshow.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:38 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:38 +0100
+
+
+Started GET "/assets/gallery/touch_touch.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:38 +0100
+
+
+Started GET "/assets/devise_bootstrap_views.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:38 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:38 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:38 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:38 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:38 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:38 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:38 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:38 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:38 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:38 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:38 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:38 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:38 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:38 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:38 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:38 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:38 +0100
+
+
+Started GET "/assets/responsive.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:38 +0100
+
+
+Started GET "/assets/gallery/galleria.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:38 +0100
+
+
+Started GET "/assets/jquery/jquery.tmpl.min.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:38 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:38 +0100
+
+
+Started GET "/assets/gallery/slideshow.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:38 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:38 +0100
+
+
+Started GET "/assets/gallery/touch_touch.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:38 +0100
+
+
+Started GET "/assets/jquery/jquery.easing-1.3.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:38 +0100
+
+
+Started GET "/assets/jquery/jquery.elastislide.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:38 +0100
+
+
+Started GET "/?r" for 127.0.0.1 at 2015-02-26 16:29:38 +0100
+Processing by WelcomeController#index as HTML
+  Parameters: {"r"=>nil}
+  Rendered welcome/index.html.erb within layouts/application (72.2ms)
+Completed 200 OK in 327ms (Views: 326.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:39 +0100
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:39 +0100
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:39 +0100
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:39 +0100
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:39 +0100
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:39 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:39 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:39 +0100
+
+
+Started GET "/assets/scores.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:39 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:39 +0100
+
+
+Started GET "/assets/solutions.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:39 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:39 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:39 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:39 +0100
+
+
+Started GET "/assets/gallery/responsive/elastislide.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:39 +0100
+
+
+Started GET "/assets/gallery/responsive.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:39 +0100
+
+
+Started GET "/assets/gallery/slideshow.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:39 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:39 +0100
+
+
+Started GET "/assets/gallery/touch_touch.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:39 +0100
+
+
+Started GET "/assets/devise_bootstrap_views.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:39 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:39 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:39 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:39 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:39 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:39 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:39 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:39 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:39 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:39 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:39 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:39 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:39 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:39 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:39 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:39 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:39 +0100
+
+
+Started GET "/assets/responsive.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:39 +0100
+
+
+Started GET "/assets/gallery/slideshow.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:39 +0100
+
+
+Started GET "/assets/gallery/galleria.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:39 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:39 +0100
+
+
+Started GET "/assets/gallery/touch_touch.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:39 +0100
+
+
+Started GET "/assets/jquery/jquery.easing-1.3.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:39 +0100
+
+
+Started GET "/assets/jquery/jquery.elastislide.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:39 +0100
+
+
+Started GET "/assets/jquery/jquery.tmpl.min.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:39 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:39 +0100
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-02-26 16:29:40 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/sessions/new.html.erb within layouts/application (41.1ms)
+Completed 200 OK in 327ms (Views: 306.7ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2015-02-26 16:29:41 +0100
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YOdj80LpjgHA/XS7bbCFop295KtrdkBEeT9guchNpk0=", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Anmelden"}
+Completed 401 Unauthorized in 1ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YOdj80LpjgHA/XS7bbCFop295KtrdkBEeT9guchNpk0=", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Anmelden"}
+  Rendered devise/sessions/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 260ms (Views: 258.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:41 +0100
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:41 +0100
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:41 +0100
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:41 +0100
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:41 +0100
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:41 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:41 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:41 +0100
+
+
+Started GET "/assets/scores.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:41 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:41 +0100
+
+
+Started GET "/assets/solutions.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:41 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:41 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:41 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:41 +0100
+
+
+Started GET "/assets/gallery/responsive/elastislide.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:41 +0100
+
+
+Started GET "/assets/gallery/responsive.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:41 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:41 +0100
+
+
+Started GET "/assets/gallery/slideshow.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:41 +0100
+
+
+Started GET "/assets/gallery/touch_touch.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:41 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:41 +0100
+
+
+Started GET "/assets/devise_bootstrap_views.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:41 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:41 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:41 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:41 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:41 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:41 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:41 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:41 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:41 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:41 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:41 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:41 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:41 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:41 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:41 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:41 +0100
+
+
+Started GET "/assets/responsive.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:41 +0100
+
+
+Started GET "/assets/gallery/slideshow.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:41 +0100
+
+
+Started GET "/assets/gallery/galleria.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:41 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:41 +0100
+
+
+Started GET "/assets/gallery/touch_touch.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:41 +0100
+
+
+Started GET "/assets/jquery/jquery.easing-1.3.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:41 +0100
+
+
+Started GET "/assets/jquery/jquery.elastislide.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:41 +0100
+
+
+Started GET "/assets/jquery/jquery.tmpl.min.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:41 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:41 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-26 16:29:44 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (93.0ms)
+Completed 200 OK in 355ms (Views: 353.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:44 +0100
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:44 +0100
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:44 +0100
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:44 +0100
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:44 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:44 +0100
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:44 +0100
+
+
+Started GET "/assets/scores.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:44 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:44 +0100
+
+
+Started GET "/assets/solutions.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:44 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:44 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:44 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:44 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:44 +0100
+
+
+Started GET "/assets/gallery/responsive/elastislide.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:44 +0100
+
+
+Started GET "/assets/gallery/responsive.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:44 +0100
+
+
+Started GET "/assets/gallery/slideshow.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:44 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:44 +0100
+
+
+Started GET "/assets/gallery/touch_touch.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:44 +0100
+
+
+Started GET "/assets/devise_bootstrap_views.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:44 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:44 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:44 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:44 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:44 +0100
+
+
+Started GET "/assets/responsive.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:44 +0100
+
+
+Started GET "/assets/gallery/slideshow.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:44 +0100
+
+
+Started GET "/assets/gallery/galleria.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:44 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:44 +0100
+
+
+Started GET "/assets/gallery/touch_touch.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:44 +0100
+
+
+Started GET "/assets/jquery/jquery.easing-1.3.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:44 +0100
+
+
+Started GET "/assets/jquery/jquery.elastislide.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:44 +0100
+
+
+Started GET "/assets/jquery/jquery.tmpl.min.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:44 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:44 +0100
+
+
+Started GET "/?r" for 127.0.0.1 at 2015-02-26 16:29:44 +0100
+Processing by WelcomeController#index as HTML
+  Parameters: {"r"=>nil}
+  Rendered welcome/index.html.erb within layouts/application (91.6ms)
+Completed 200 OK in 361ms (Views: 359.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:45 +0100
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:45 +0100
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:45 +0100
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:45 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:45 +0100
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:45 +0100
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:45 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:45 +0100
+
+
+Started GET "/assets/scores.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:45 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:45 +0100
+
+
+Started GET "/assets/solutions.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:45 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:45 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:45 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:45 +0100
+
+
+Started GET "/assets/gallery/responsive/elastislide.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:45 +0100
+
+
+Started GET "/assets/gallery/responsive.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:45 +0100
+
+
+Started GET "/assets/gallery/slideshow.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:45 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:45 +0100
+
+
+Started GET "/assets/gallery/touch_touch.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:45 +0100
+
+
+Started GET "/assets/devise_bootstrap_views.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:45 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:45 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:45 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:45 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:45 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:45 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:45 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:45 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:45 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:45 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:45 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:45 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:45 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:45 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:45 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:45 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:45 +0100
+
+
+Started GET "/assets/responsive.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:45 +0100
+
+
+Started GET "/assets/gallery/slideshow.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:45 +0100
+
+
+Started GET "/assets/gallery/galleria.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:45 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:45 +0100
+
+
+Started GET "/assets/gallery/touch_touch.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:45 +0100
+
+
+Started GET "/assets/jquery/jquery.elastislide.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:45 +0100
+
+
+Started GET "/assets/jquery/jquery.easing-1.3.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:45 +0100
+
+
+Started GET "/assets/jquery/jquery.tmpl.min.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:45 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:45 +0100
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-26 16:29:48 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/registrations/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 273ms (Views: 271.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2015-02-26 16:29:49 +0100
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YOdj80LpjgHA/XS7bbCFop295KtrdkBEeT9guchNpk0=", "user"=>{"email"=>"", "username"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Registrieren"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered devise/registrations/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 272ms (Views: 261.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:50 +0100
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:50 +0100
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:50 +0100
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:50 +0100
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:50 +0100
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:50 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:50 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:50 +0100
+
+
+Started GET "/assets/scores.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:50 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:50 +0100
+
+
+Started GET "/assets/solutions.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:50 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:50 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:50 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:50 +0100
+
+
+Started GET "/assets/gallery/responsive/elastislide.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:50 +0100
+
+
+Started GET "/assets/gallery/responsive.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:50 +0100
+
+
+Started GET "/assets/gallery/slideshow.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:50 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:50 +0100
+
+
+Started GET "/assets/gallery/touch_touch.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:50 +0100
+
+
+Started GET "/assets/devise_bootstrap_views.css?body=1" for 127.0.0.1 at 2015-02-26 16:29:50 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:50 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:50 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:50 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:50 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:50 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:50 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:50 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:50 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:50 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:50 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:50 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:50 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:50 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:50 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:50 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:50 +0100
+
+
+Started GET "/assets/responsive.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:50 +0100
+
+
+Started GET "/assets/gallery/slideshow.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:50 +0100
+
+
+Started GET "/assets/gallery/galleria.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:50 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:50 +0100
+
+
+Started GET "/assets/gallery/touch_touch.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:50 +0100
+
+
+Started GET "/assets/jquery/jquery.easing-1.3.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:50 +0100
+
+
+Started GET "/assets/jquery/jquery.elastislide.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:50 +0100
+
+
+Started GET "/assets/jquery/jquery.tmpl.min.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:50 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-26 16:29:50 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-26 16:33:16 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (109.2ms)
+Completed 200 OK in 580ms (Views: 557.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:17 +0100
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:17 +0100
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:17 +0100
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:17 +0100
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:17 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:17 +0100
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:17 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:17 +0100
+
+
+Started GET "/assets/scores.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:17 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:17 +0100
+
+
+Started GET "/assets/solutions.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:17 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:17 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:17 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:17 +0100
+
+
+Started GET "/assets/gallery/responsive/elastislide.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:17 +0100
+
+
+Started GET "/assets/gallery/responsive.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:17 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:17 +0100
+
+
+Started GET "/assets/gallery/slideshow.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:17 +0100
+
+
+Started GET "/assets/gallery/touch_touch.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:17 +0100
+
+
+Started GET "/assets/devise_bootstrap_views.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:17 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:17 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:17 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:17 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:17 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:17 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:17 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:17 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:17 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:17 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:17 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:17 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:17 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:17 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:17 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:17 +0100
+
+
+Started GET "/assets/responsive.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:17 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:17 +0100
+
+
+Started GET "/assets/gallery/slideshow.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:17 +0100
+
+
+Started GET "/assets/gallery/galleria.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:17 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:17 +0100
+
+
+Started GET "/assets/gallery/touch_touch.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:17 +0100
+
+
+Started GET "/assets/jquery/jquery.easing-1.3.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:17 +0100
+
+
+Started GET "/assets/jquery/jquery.elastislide.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:17 +0100
+
+
+Started GET "/assets/jquery/jquery.tmpl.min.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:17 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:18 +0100
+
+
+Started GET "/?r" for 127.0.0.1 at 2015-02-26 16:33:18 +0100
+Processing by WelcomeController#index as HTML
+  Parameters: {"r"=>nil}
+  Rendered welcome/index.html.erb within layouts/application (95.2ms)
+Completed 200 OK in 357ms (Views: 355.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:18 +0100
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:18 +0100
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:18 +0100
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:18 +0100
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:18 +0100
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:18 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:18 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:18 +0100
+
+
+Started GET "/assets/scores.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:18 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:18 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:18 +0100
+
+
+Started GET "/assets/solutions.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:18 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:18 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:18 +0100
+
+
+Started GET "/assets/gallery/responsive/elastislide.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:18 +0100
+
+
+Started GET "/assets/gallery/responsive.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:18 +0100
+
+
+Started GET "/assets/gallery/slideshow.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:18 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:18 +0100
+
+
+Started GET "/assets/gallery/touch_touch.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:18 +0100
+
+
+Started GET "/assets/devise_bootstrap_views.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:18 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:18 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:18 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:18 +0100
+
+
+Started GET "/assets/responsive.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:18 +0100
+
+
+Started GET "/assets/gallery/galleria.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:18 +0100
+
+
+Started GET "/assets/gallery/slideshow.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:18 +0100
+
+
+Started GET "/assets/jquery/jquery.easing-1.3.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:18 +0100
+
+
+Started GET "/assets/gallery/touch_touch.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:18 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:18 +0100
+
+
+Started GET "/assets/jquery/jquery.elastislide.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:18 +0100
+
+
+Started GET "/assets/jquery/jquery.tmpl.min.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:18 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:18 +0100
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-02-26 16:33:19 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/sessions/new.html.erb within layouts/application (122.9ms)
+Completed 200 OK in 398ms (Views: 382.8ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2015-02-26 16:33:21 +0100
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YOdj80LpjgHA/XS7bbCFop295KtrdkBEeT9guchNpk0=", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Anmelden"}
+Completed 401 Unauthorized in 2ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YOdj80LpjgHA/XS7bbCFop295KtrdkBEeT9guchNpk0=", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Anmelden"}
+  Rendered devise/sessions/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 203ms (Views: 200.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:21 +0100
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:21 +0100
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:21 +0100
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:21 +0100
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:21 +0100
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:21 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:21 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:21 +0100
+
+
+Started GET "/assets/scores.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:21 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:21 +0100
+
+
+Started GET "/assets/solutions.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:21 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:21 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:21 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:21 +0100
+
+
+Started GET "/assets/gallery/responsive/elastislide.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:21 +0100
+
+
+Started GET "/assets/gallery/responsive.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:21 +0100
+
+
+Started GET "/assets/gallery/slideshow.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:21 +0100
+
+
+Started GET "/assets/gallery/touch_touch.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:21 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:21 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:21 +0100
+
+
+Started GET "/assets/devise_bootstrap_views.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:21 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:21 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:21 +0100
+
+
+Started GET "/assets/responsive.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:21 +0100
+
+
+Started GET "/assets/gallery/slideshow.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:21 +0100
+
+
+Started GET "/assets/gallery/galleria.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:21 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:21 +0100
+
+
+Started GET "/assets/gallery/touch_touch.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:21 +0100
+
+
+Started GET "/assets/jquery/jquery.easing-1.3.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:21 +0100
+
+
+Started GET "/assets/jquery/jquery.elastislide.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:21 +0100
+
+
+Started GET "/assets/jquery/jquery.tmpl.min.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:21 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:21 +0100
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-26 16:33:23 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/registrations/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 269ms (Views: 267.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:23 +0100
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:23 +0100
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:23 +0100
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:23 +0100
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:23 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:23 +0100
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:23 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:23 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:23 +0100
+
+
+Started GET "/assets/scores.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:23 +0100
+
+
+Started GET "/assets/solutions.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:23 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:23 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:23 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:23 +0100
+
+
+Started GET "/assets/gallery/responsive/elastislide.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:23 +0100
+
+
+Started GET "/assets/gallery/responsive.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:23 +0100
+
+
+Started GET "/assets/gallery/slideshow.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:23 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:23 +0100
+
+
+Started GET "/assets/gallery/touch_touch.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:23 +0100
+
+
+Started GET "/assets/devise_bootstrap_views.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:23 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:23 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:23 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:23 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:23 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:23 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:23 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:23 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:23 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:23 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:23 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:23 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:23 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:23 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:23 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:23 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:23 +0100
+
+
+Started GET "/assets/responsive.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:23 +0100
+
+
+Started GET "/assets/gallery/slideshow.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:23 +0100
+
+
+Started GET "/assets/gallery/galleria.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:23 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:23 +0100
+
+
+Started GET "/assets/jquery/jquery.easing-1.3.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:23 +0100
+
+
+Started GET "/assets/gallery/touch_touch.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:23 +0100
+
+
+Started GET "/assets/jquery/jquery.elastislide.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:23 +0100
+
+
+Started GET "/assets/jquery/jquery.tmpl.min.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:23 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:23 +0100
+
+
+Started POST "/users" for 127.0.0.1 at 2015-02-26 16:33:24 +0100
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YOdj80LpjgHA/XS7bbCFop295KtrdkBEeT9guchNpk0=", "user"=>{"email"=>"", "username"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Registrieren"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered devise/registrations/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 275ms (Views: 263.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:25 +0100
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:25 +0100
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:25 +0100
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:25 +0100
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:25 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:25 +0100
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:25 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:25 +0100
+
+
+Started GET "/assets/scores.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:25 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:25 +0100
+
+
+Started GET "/assets/solutions.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:25 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:25 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:25 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:25 +0100
+
+
+Started GET "/assets/gallery/responsive/elastislide.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:25 +0100
+
+
+Started GET "/assets/gallery/responsive.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:25 +0100
+
+
+Started GET "/assets/gallery/slideshow.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:25 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:25 +0100
+
+
+Started GET "/assets/gallery/touch_touch.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:25 +0100
+
+
+Started GET "/assets/devise_bootstrap_views.css?body=1" for 127.0.0.1 at 2015-02-26 16:33:25 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:25 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:25 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:25 +0100
+
+
+Started GET "/assets/responsive.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:25 +0100
+
+
+Started GET "/assets/gallery/slideshow.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:25 +0100
+
+
+Started GET "/assets/gallery/galleria.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:25 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:25 +0100
+
+
+Started GET "/assets/gallery/touch_touch.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:25 +0100
+
+
+Started GET "/assets/jquery/jquery.easing-1.3.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:25 +0100
+
+
+Started GET "/assets/jquery/jquery.elastislide.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:25 +0100
+
+
+Started GET "/assets/jquery/jquery.tmpl.min.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:25 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-26 16:33:25 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-26 16:35:12 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (88.0ms)
+Completed 200 OK in 340ms (Views: 339.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+
+
+Started GET "/assets/scores.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+
+
+Started GET "/assets/solutions.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+
+
+Started GET "/assets/gallery/responsive/elastislide.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+
+
+Started GET "/assets/gallery/slideshow.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+
+
+Started GET "/assets/gallery/responsive.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+
+
+Started GET "/assets/gallery/touch_touch.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+
+
+Started GET "/assets/devise_bootstrap_views.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+
+
+Started GET "/assets/responsive.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+
+
+Started GET "/assets/gallery/slideshow.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+
+
+Started GET "/assets/gallery/galleria.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+
+
+Started GET "/assets/gallery/touch_touch.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+
+
+Started GET "/assets/jquery/jquery.easing-1.3.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+
+
+Started GET "/assets/jquery/jquery.elastislide.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+
+
+Started GET "/assets/jquery/jquery.tmpl.min.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+
+
+Started GET "/assets/Hintergrund.jpg" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+
+
+Started GET "/assets/LOGO.png" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+
+
+Started GET "/?r" for 127.0.0.1 at 2015-02-26 16:35:13 +0100
+Processing by WelcomeController#index as HTML
+  Parameters: {"r"=>nil}
+  Rendered welcome/index.html.erb within layouts/application (84.6ms)
+Completed 200 OK in 334ms (Views: 333.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:14 +0100
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:14 +0100
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:14 +0100
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:14 +0100
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:14 +0100
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:14 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:14 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:14 +0100
+
+
+Started GET "/assets/scores.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:14 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:14 +0100
+
+
+Started GET "/assets/solutions.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:14 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:14 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:14 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:14 +0100
+
+
+Started GET "/assets/gallery/responsive/elastislide.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:14 +0100
+
+
+Started GET "/assets/gallery/responsive.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:14 +0100
+
+
+Started GET "/assets/gallery/slideshow.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:14 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:14 +0100
+
+
+Started GET "/assets/gallery/touch_touch.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:14 +0100
+
+
+Started GET "/assets/devise_bootstrap_views.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:14 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:14 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:14 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:14 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:14 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:14 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:14 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:14 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:14 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:14 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:14 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:14 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:14 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:14 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:14 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:14 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:14 +0100
+
+
+Started GET "/assets/responsive.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:14 +0100
+
+
+Started GET "/assets/gallery/slideshow.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:14 +0100
+
+
+Started GET "/assets/gallery/galleria.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:14 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:14 +0100
+
+
+Started GET "/assets/gallery/touch_touch.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:14 +0100
+
+
+Started GET "/assets/jquery/jquery.easing-1.3.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:14 +0100
+
+
+Started GET "/assets/jquery/jquery.elastislide.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:14 +0100
+
+
+Started GET "/assets/jquery/jquery.tmpl.min.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:14 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:14 +0100
+
+
+Started GET "/assets/Hintergrund.jpg" for 127.0.0.1 at 2015-02-26 16:35:14 +0100
+
+
+Started GET "/assets/LOGO.png" for 127.0.0.1 at 2015-02-26 16:35:14 +0100
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-02-26 16:35:15 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/sessions/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 266ms (Views: 262.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-26 16:35:17 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/registrations/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 260ms (Views: 258.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-26 16:35:18 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (86.4ms)
+Completed 200 OK in 353ms (Views: 351.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?r" for 127.0.0.1 at 2015-02-26 16:35:18 +0100
+Processing by WelcomeController#index as HTML
+  Parameters: {"r"=>nil}
+  Rendered welcome/index.html.erb within layouts/application (79.8ms)
+Completed 200 OK in 337ms (Views: 335.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:18 +0100
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:18 +0100
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:18 +0100
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:18 +0100
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:18 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:18 +0100
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:18 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:18 +0100
+
+
+Started GET "/assets/scores.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:18 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:18 +0100
+
+
+Started GET "/assets/solutions.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:18 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:18 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:19 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:19 +0100
+
+
+Started GET "/assets/gallery/responsive/elastislide.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:19 +0100
+
+
+Started GET "/assets/gallery/responsive.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:19 +0100
+
+
+Started GET "/assets/gallery/slideshow.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:19 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:19 +0100
+
+
+Started GET "/assets/gallery/touch_touch.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:19 +0100
+
+
+Started GET "/assets/devise_bootstrap_views.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:19 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:19 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:19 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:19 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:19 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:19 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:19 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:19 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:19 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:19 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:19 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:19 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:19 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:19 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:19 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:19 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:19 +0100
+
+
+Started GET "/assets/responsive.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:19 +0100
+
+
+Started GET "/assets/gallery/galleria.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:19 +0100
+
+
+Started GET "/assets/gallery/slideshow.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:19 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:19 +0100
+
+
+Started GET "/assets/gallery/touch_touch.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:19 +0100
+
+
+Started GET "/assets/jquery/jquery.easing-1.3.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:19 +0100
+
+
+Started GET "/assets/jquery/jquery.elastislide.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:19 +0100
+
+
+Started GET "/assets/jquery/jquery.tmpl.min.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:19 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:19 +0100
+
+
+Started GET "/assets/Hintergrund.jpg" for 127.0.0.1 at 2015-02-26 16:35:19 +0100
+
+
+Started GET "/assets/LOGO.png" for 127.0.0.1 at 2015-02-26 16:35:19 +0100
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-02-26 16:35:20 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/sessions/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 305ms (Views: 303.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2015-02-26 16:35:21 +0100
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YOdj80LpjgHA/XS7bbCFop295KtrdkBEeT9guchNpk0=", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Anmelden"}
+Completed 401 Unauthorized in 1ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YOdj80LpjgHA/XS7bbCFop295KtrdkBEeT9guchNpk0=", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Anmelden"}
+  Rendered devise/sessions/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 267ms (Views: 266.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:22 +0100
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:22 +0100
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:22 +0100
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:22 +0100
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:22 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:22 +0100
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:22 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:22 +0100
+
+
+Started GET "/assets/scores.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:22 +0100
+
+
+Started GET "/assets/solutions.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:22 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:22 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:22 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:22 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:22 +0100
+
+
+Started GET "/assets/gallery/responsive/elastislide.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:22 +0100
+
+
+Started GET "/assets/gallery/responsive.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:22 +0100
+
+
+Started GET "/assets/gallery/slideshow.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:22 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:22 +0100
+
+
+Started GET "/assets/gallery/touch_touch.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:22 +0100
+
+
+Started GET "/assets/devise_bootstrap_views.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:22 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:22 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:22 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:22 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:22 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:22 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:22 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:22 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:22 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:22 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:22 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:22 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:22 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:22 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:22 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:22 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:22 +0100
+
+
+Started GET "/assets/gallery/slideshow.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:22 +0100
+
+
+Started GET "/assets/responsive.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:22 +0100
+
+
+Started GET "/assets/gallery/galleria.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:22 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:22 +0100
+
+
+Started GET "/assets/gallery/touch_touch.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:22 +0100
+
+
+Started GET "/assets/jquery/jquery.easing-1.3.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:22 +0100
+
+
+Started GET "/assets/jquery/jquery.elastislide.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:22 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:22 +0100
+
+
+Started GET "/assets/jquery/jquery.tmpl.min.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:22 +0100
+
+
+Started GET "/assets/Hintergrund.jpg" for 127.0.0.1 at 2015-02-26 16:35:22 +0100
+
+
+Started GET "/assets/LOGO.png" for 127.0.0.1 at 2015-02-26 16:35:22 +0100
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/registrations/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 267ms (Views: 266.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+
+
+Started GET "/assets/scores.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+
+
+Started GET "/assets/solutions.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+
+
+Started GET "/assets/gallery/responsive/elastislide.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+
+
+Started GET "/assets/gallery/slideshow.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+
+
+Started GET "/assets/gallery/responsive.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+
+
+Started GET "/assets/gallery/touch_touch.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+
+
+Started GET "/assets/devise_bootstrap_views.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+
+
+Started GET "/assets/responsive.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+
+
+Started GET "/assets/gallery/slideshow.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+
+
+Started GET "/assets/gallery/galleria.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+
+
+Started GET "/assets/gallery/touch_touch.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+
+
+Started GET "/assets/jquery/jquery.easing-1.3.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+
+
+Started GET "/assets/jquery/jquery.elastislide.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+
+
+Started GET "/assets/jquery/jquery.tmpl.min.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+
+
+Started GET "/assets/Hintergrund.jpg" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+
+
+Started GET "/assets/LOGO.png" for 127.0.0.1 at 2015-02-26 16:35:24 +0100
+
+
+Started POST "/users" for 127.0.0.1 at 2015-02-26 16:35:25 +0100
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YOdj80LpjgHA/XS7bbCFop295KtrdkBEeT9guchNpk0=", "user"=>{"email"=>"", "username"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Registrieren"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered devise/registrations/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 282ms (Views: 272.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:25 +0100
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:25 +0100
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:25 +0100
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:25 +0100
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:25 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:25 +0100
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:25 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:25 +0100
+
+
+Started GET "/assets/scores.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:25 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:25 +0100
+
+
+Started GET "/assets/solutions.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:25 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:25 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:25 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:25 +0100
+
+
+Started GET "/assets/gallery/responsive/elastislide.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:25 +0100
+
+
+Started GET "/assets/gallery/responsive.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:25 +0100
+
+
+Started GET "/assets/gallery/slideshow.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:25 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:25 +0100
+
+
+Started GET "/assets/gallery/touch_touch.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:25 +0100
+
+
+Started GET "/assets/devise_bootstrap_views.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:25 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:25 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:25 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:25 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:25 +0100
+
+
+Started GET "/assets/responsive.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:25 +0100
+
+
+Started GET "/assets/gallery/slideshow.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:25 +0100
+
+
+Started GET "/assets/gallery/galleria.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:25 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:25 +0100
+
+
+Started GET "/assets/gallery/touch_touch.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:25 +0100
+
+
+Started GET "/assets/jquery/jquery.easing-1.3.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:25 +0100
+
+
+Started GET "/assets/jquery/jquery.elastislide.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:25 +0100
+
+
+Started GET "/assets/jquery/jquery.tmpl.min.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:26 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:26 +0100
+
+
+Started GET "/assets/Hintergrund.jpg" for 127.0.0.1 at 2015-02-26 16:35:26 +0100
+
+
+Started GET "/assets/LOGO.png" for 127.0.0.1 at 2015-02-26 16:35:26 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-26 16:35:35 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (88.2ms)
+Completed 200 OK in 607ms (Views: 584.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:35 +0100
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:35 +0100
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:35 +0100
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:35 +0100
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:35 +0100
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:35 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:35 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/scores.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/solutions.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/gallery/responsive/elastislide.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/gallery/responsive.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/gallery/slideshow.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/gallery/touch_touch.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/devise_bootstrap_views.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/responsive.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/gallery/slideshow.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/gallery/galleria.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/gallery/touch_touch.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/jquery/jquery.easing-1.3.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/jquery/jquery.elastislide.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/jquery/jquery.tmpl.min.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/LOGO.png" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/?r" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+Processing by WelcomeController#index as HTML
+  Parameters: {"r"=>nil}
+  Rendered welcome/index.html.erb within layouts/application (82.6ms)
+Completed 200 OK in 337ms (Views: 335.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/scores.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/solutions.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:36 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:37 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:37 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:37 +0100
+
+
+Started GET "/assets/gallery/responsive/elastislide.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:37 +0100
+
+
+Started GET "/assets/gallery/responsive.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:37 +0100
+
+
+Started GET "/assets/gallery/slideshow.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:37 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:37 +0100
+
+
+Started GET "/assets/gallery/touch_touch.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:37 +0100
+
+
+Started GET "/assets/devise_bootstrap_views.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:37 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:37 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:37 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:37 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:37 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:37 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:37 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:37 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:37 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:37 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:37 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:37 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:37 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:37 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:37 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:37 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:37 +0100
+
+
+Started GET "/assets/responsive.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:37 +0100
+
+
+Started GET "/assets/gallery/slideshow.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:37 +0100
+
+
+Started GET "/assets/gallery/galleria.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:37 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:37 +0100
+
+
+Started GET "/assets/gallery/touch_touch.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:37 +0100
+
+
+Started GET "/assets/jquery/jquery.easing-1.3.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:37 +0100
+
+
+Started GET "/assets/jquery/jquery.elastislide.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:37 +0100
+
+
+Started GET "/assets/jquery/jquery.tmpl.min.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:37 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:37 +0100
+
+
+Started GET "/assets/LOGO.png" for 127.0.0.1 at 2015-02-26 16:35:37 +0100
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-26 16:35:38 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/registrations/new.html.erb within layouts/application (137.2ms)
+Completed 200 OK in 405ms (Views: 401.1ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2015-02-26 16:35:39 +0100
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YOdj80LpjgHA/XS7bbCFop295KtrdkBEeT9guchNpk0=", "user"=>{"email"=>"", "username"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered devise/registrations/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 298ms (Views: 282.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:40 +0100
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:40 +0100
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:40 +0100
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:40 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:40 +0100
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:40 +0100
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:40 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:40 +0100
+
+
+Started GET "/assets/scores.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:40 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:40 +0100
+
+
+Started GET "/assets/solutions.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:40 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:40 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:40 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:40 +0100
+
+
+Started GET "/assets/gallery/responsive/elastislide.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:40 +0100
+
+
+Started GET "/assets/gallery/responsive.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:40 +0100
+
+
+Started GET "/assets/gallery/slideshow.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:40 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:40 +0100
+
+
+Started GET "/assets/gallery/touch_touch.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:40 +0100
+
+
+Started GET "/assets/devise_bootstrap_views.css?body=1" for 127.0.0.1 at 2015-02-26 16:35:40 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:40 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:40 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:40 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:40 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:40 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:40 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:40 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:40 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:40 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:40 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:40 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:40 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:40 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:40 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:40 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:40 +0100
+
+
+Started GET "/assets/responsive.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:40 +0100
+
+
+Started GET "/assets/gallery/slideshow.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:40 +0100
+
+
+Started GET "/assets/gallery/galleria.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:40 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:40 +0100
+
+
+Started GET "/assets/gallery/touch_touch.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:40 +0100
+
+
+Started GET "/assets/jquery/jquery.easing-1.3.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:40 +0100
+
+
+Started GET "/assets/jquery/jquery.elastislide.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:40 +0100
+
+
+Started GET "/assets/jquery/jquery.tmpl.min.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:40 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-26 16:35:40 +0100
+
+
+Started GET "/welcome/regeln" for 127.0.0.1 at 2015-02-26 16:39:15 +0100
+Processing by WelcomeController#regeln as HTML
+  Rendered welcome/regeln.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 265ms (Views: 264.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:16 +0100
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:16 +0100
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:16 +0100
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:16 +0100
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:16 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:16 +0100
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:16 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:16 +0100
+
+
+Started GET "/assets/scores.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:16 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:16 +0100
+
+
+Started GET "/assets/solutions.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:16 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:16 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:16 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:16 +0100
+
+
+Started GET "/assets/gallery/responsive/elastislide.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:16 +0100
+
+
+Started GET "/assets/gallery/slideshow.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:16 +0100
+
+
+Started GET "/assets/gallery/responsive.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:16 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:16 +0100
+
+
+Started GET "/assets/gallery/touch_touch.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:16 +0100
+
+
+Started GET "/assets/devise_bootstrap_views.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:16 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:16 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:16 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:16 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:16 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:16 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:16 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:16 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:16 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:16 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:16 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:16 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:16 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:16 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:16 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:16 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:16 +0100
+
+
+Started GET "/assets/responsive.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:16 +0100
+
+
+Started GET "/assets/gallery/slideshow.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:16 +0100
+
+
+Started GET "/assets/gallery/galleria.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:16 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:16 +0100
+
+
+Started GET "/assets/gallery/touch_touch.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:16 +0100
+
+
+Started GET "/assets/jquery/jquery.easing-1.3.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:16 +0100
+
+
+Started GET "/assets/jquery/jquery.elastislide.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:16 +0100
+
+
+Started GET "/assets/jquery/jquery.tmpl.min.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:16 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:16 +0100
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-26 16:39:16 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/registrations/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 283ms (Views: 281.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2015-02-26 16:39:18 +0100
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YOdj80LpjgHA/XS7bbCFop295KtrdkBEeT9guchNpk0=", "user"=>{"email"=>"", "username"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered devise/registrations/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 270ms (Views: 262.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:18 +0100
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:18 +0100
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:18 +0100
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:18 +0100
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:18 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:18 +0100
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:18 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:18 +0100
+
+
+Started GET "/assets/scores.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:18 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:18 +0100
+
+
+Started GET "/assets/solutions.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:18 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:18 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:18 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:18 +0100
+
+
+Started GET "/assets/gallery/responsive/elastislide.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:18 +0100
+
+
+Started GET "/assets/gallery/responsive.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:18 +0100
+
+
+Started GET "/assets/gallery/slideshow.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:18 +0100
+
+
+Started GET "/assets/gallery/touch_touch.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:18 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:18 +0100
+
+
+Started GET "/assets/devise_bootstrap_views.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:18 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:18 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:18 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:18 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:18 +0100
+
+
+Started GET "/assets/responsive.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:18 +0100
+
+
+Started GET "/assets/gallery/slideshow.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:18 +0100
+
+
+Started GET "/assets/gallery/galleria.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:18 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:18 +0100
+
+
+Started GET "/assets/jquery/jquery.easing-1.3.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:18 +0100
+
+
+Started GET "/assets/gallery/touch_touch.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:18 +0100
+
+
+Started GET "/assets/jquery/jquery.tmpl.min.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:18 +0100
+
+
+Started GET "/assets/jquery/jquery.elastislide.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:18 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:18 +0100
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-02-26 16:39:19 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/sessions/new.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 283ms (Views: 281.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:19 +0100
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:19 +0100
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:19 +0100
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:19 +0100
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:19 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:19 +0100
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:19 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:19 +0100
+
+
+Started GET "/assets/scores.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:19 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:19 +0100
+
+
+Started GET "/assets/solutions.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:19 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:19 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:19 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:19 +0100
+
+
+Started GET "/assets/gallery/responsive/elastislide.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:19 +0100
+
+
+Started GET "/assets/gallery/responsive.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:19 +0100
+
+
+Started GET "/assets/gallery/slideshow.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:19 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:19 +0100
+
+
+Started GET "/assets/gallery/touch_touch.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:19 +0100
+
+
+Started GET "/assets/devise_bootstrap_views.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:19 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:19 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:19 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:19 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:19 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:19 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:20 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:20 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:20 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:20 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:20 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:20 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:20 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:20 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:20 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:20 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:20 +0100
+
+
+Started GET "/assets/responsive.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:20 +0100
+
+
+Started GET "/assets/gallery/slideshow.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:20 +0100
+
+
+Started GET "/assets/gallery/galleria.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:20 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:20 +0100
+
+
+Started GET "/assets/jquery/jquery.easing-1.3.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:20 +0100
+
+
+Started GET "/assets/gallery/touch_touch.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:20 +0100
+
+
+Started GET "/assets/jquery/jquery.elastislide.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:20 +0100
+
+
+Started GET "/assets/jquery/jquery.tmpl.min.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:20 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:20 +0100
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2015-02-26 16:39:21 +0100
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YOdj80LpjgHA/XS7bbCFop295KtrdkBEeT9guchNpk0=", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+Completed 401 Unauthorized in 1ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YOdj80LpjgHA/XS7bbCFop295KtrdkBEeT9guchNpk0=", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  Rendered devise/sessions/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 272ms (Views: 270.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:21 +0100
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:21 +0100
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:21 +0100
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:21 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:21 +0100
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:21 +0100
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:21 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:21 +0100
+
+
+Started GET "/assets/scores.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:21 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:21 +0100
+
+
+Started GET "/assets/solutions.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:21 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:21 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:21 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:21 +0100
+
+
+Started GET "/assets/gallery/responsive/elastislide.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:21 +0100
+
+
+Started GET "/assets/gallery/responsive.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:21 +0100
+
+
+Started GET "/assets/gallery/slideshow.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:21 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:21 +0100
+
+
+Started GET "/assets/gallery/touch_touch.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:21 +0100
+
+
+Started GET "/assets/devise_bootstrap_views.css?body=1" for 127.0.0.1 at 2015-02-26 16:39:21 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:21 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:21 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:21 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:21 +0100
+
+
+Started GET "/assets/responsive.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:21 +0100
+
+
+Started GET "/assets/gallery/slideshow.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:21 +0100
+
+
+Started GET "/assets/gallery/galleria.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:21 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:21 +0100
+
+
+Started GET "/assets/gallery/touch_touch.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:21 +0100
+
+
+Started GET "/assets/jquery/jquery.easing-1.3.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:21 +0100
+
+
+Started GET "/assets/jquery/jquery.elastislide.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:21 +0100
+
+
+Started GET "/assets/jquery/jquery.tmpl.min.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:21 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-26 16:39:21 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-26 16:40:02 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (112.1ms)
+Completed 200 OK in 590ms (Views: 566.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:03 +0100
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:03 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:03 +0100
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:03 +0100
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:03 +0100
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:03 +0100
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:03 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:03 +0100
+
+
+Started GET "/assets/scores.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:03 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:03 +0100
+
+
+Started GET "/assets/solutions.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:03 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:03 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:03 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:03 +0100
+
+
+Started GET "/assets/gallery/responsive/elastislide.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:03 +0100
+
+
+Started GET "/assets/gallery/responsive.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:03 +0100
+
+
+Started GET "/assets/gallery/slideshow.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:03 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:03 +0100
+
+
+Started GET "/assets/gallery/touch_touch.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:03 +0100
+
+
+Started GET "/assets/devise_bootstrap_views.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:03 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:03 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:03 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:03 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:03 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:03 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:03 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:03 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:03 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:03 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:03 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:03 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:03 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:03 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:03 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:03 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:03 +0100
+
+
+Started GET "/assets/responsive.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:03 +0100
+
+
+Started GET "/assets/gallery/slideshow.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:03 +0100
+
+
+Started GET "/assets/gallery/galleria.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:03 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:03 +0100
+
+
+Started GET "/assets/gallery/touch_touch.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:03 +0100
+
+
+Started GET "/assets/jquery/jquery.easing-1.3.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:03 +0100
+
+
+Started GET "/assets/jquery/jquery.elastislide.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:03 +0100
+
+
+Started GET "/assets/jquery/jquery.tmpl.min.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:03 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:03 +0100
+
+
+Started GET "/?r" for 127.0.0.1 at 2015-02-26 16:40:03 +0100
+Processing by WelcomeController#index as HTML
+  Parameters: {"r"=>nil}
+  Rendered welcome/index.html.erb within layouts/application (71.6ms)
+Completed 200 OK in 268ms (Views: 267.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:04 +0100
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:04 +0100
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:04 +0100
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:04 +0100
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:04 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:04 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:04 +0100
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:04 +0100
+
+
+Started GET "/assets/scores.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:04 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:04 +0100
+
+
+Started GET "/assets/solutions.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:04 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:04 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:04 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:04 +0100
+
+
+Started GET "/assets/gallery/responsive/elastislide.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:04 +0100
+
+
+Started GET "/assets/gallery/responsive.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:04 +0100
+
+
+Started GET "/assets/gallery/slideshow.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:04 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:04 +0100
+
+
+Started GET "/assets/gallery/touch_touch.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:04 +0100
+
+
+Started GET "/assets/devise_bootstrap_views.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:04 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:04 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:04 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:04 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:04 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:04 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:04 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:04 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:04 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:04 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:04 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:04 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:04 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:04 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:04 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:04 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:04 +0100
+
+
+Started GET "/assets/responsive.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:04 +0100
+
+
+Started GET "/assets/gallery/slideshow.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:04 +0100
+
+
+Started GET "/assets/gallery/galleria.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:04 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:04 +0100
+
+
+Started GET "/assets/gallery/touch_touch.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:04 +0100
+
+
+Started GET "/assets/jquery/jquery.easing-1.3.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:04 +0100
+
+
+Started GET "/assets/jquery/jquery.elastislide.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:04 +0100
+
+
+Started GET "/assets/jquery/jquery.tmpl.min.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:04 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:04 +0100
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-02-26 16:40:06 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/sessions/new.html.erb within layouts/application (119.9ms)
+Completed 200 OK in 399ms (Views: 384.3ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2015-02-26 16:40:07 +0100
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YOdj80LpjgHA/XS7bbCFop295KtrdkBEeT9guchNpk0=", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Anmelden"}
+Completed 401 Unauthorized in 1ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YOdj80LpjgHA/XS7bbCFop295KtrdkBEeT9guchNpk0=", "user"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Anmelden"}
+  Rendered devise/sessions/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 258ms (Views: 257.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:07 +0100
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:07 +0100
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:07 +0100
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:07 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:07 +0100
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:07 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:07 +0100
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:07 +0100
+
+
+Started GET "/assets/scores.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:07 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:07 +0100
+
+
+Started GET "/assets/solutions.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:07 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:07 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:07 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:07 +0100
+
+
+Started GET "/assets/gallery/responsive/elastislide.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:07 +0100
+
+
+Started GET "/assets/gallery/responsive.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:07 +0100
+
+
+Started GET "/assets/gallery/slideshow.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:07 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:07 +0100
+
+
+Started GET "/assets/gallery/touch_touch.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:07 +0100
+
+
+Started GET "/assets/devise_bootstrap_views.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:07 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:07 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:07 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:07 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:07 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:07 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:07 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:07 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:07 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:07 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:07 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:07 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:07 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:07 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:08 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:08 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:08 +0100
+
+
+Started GET "/assets/responsive.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:08 +0100
+
+
+Started GET "/assets/gallery/slideshow.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:08 +0100
+
+
+Started GET "/assets/gallery/galleria.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:08 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:08 +0100
+
+
+Started GET "/assets/gallery/touch_touch.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:08 +0100
+
+
+Started GET "/assets/jquery/jquery.elastislide.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:08 +0100
+
+
+Started GET "/assets/jquery/jquery.easing-1.3.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:08 +0100
+
+
+Started GET "/assets/jquery/jquery.tmpl.min.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:08 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:08 +0100
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-26 16:40:31 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/registrations/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 271ms (Views: 269.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:31 +0100
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:31 +0100
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:31 +0100
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:31 +0100
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:31 +0100
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:31 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:31 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:31 +0100
+
+
+Started GET "/assets/scores.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:31 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:31 +0100
+
+
+Started GET "/assets/solutions.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:31 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:31 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:31 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:31 +0100
+
+
+Started GET "/assets/gallery/responsive/elastislide.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:31 +0100
+
+
+Started GET "/assets/gallery/responsive.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:31 +0100
+
+
+Started GET "/assets/gallery/slideshow.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:31 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:31 +0100
+
+
+Started GET "/assets/gallery/touch_touch.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:31 +0100
+
+
+Started GET "/assets/devise_bootstrap_views.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:31 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:31 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:31 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:31 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:31 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:31 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:31 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:31 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:31 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:31 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:31 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:31 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:31 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:31 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:31 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:31 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:31 +0100
+
+
+Started GET "/assets/responsive.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:31 +0100
+
+
+Started GET "/assets/gallery/slideshow.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:31 +0100
+
+
+Started GET "/assets/gallery/galleria.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:31 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:31 +0100
+
+
+Started GET "/assets/gallery/touch_touch.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:31 +0100
+
+
+Started GET "/assets/jquery/jquery.easing-1.3.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:31 +0100
+
+
+Started GET "/assets/jquery/jquery.elastislide.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:31 +0100
+
+
+Started GET "/assets/jquery/jquery.tmpl.min.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:31 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:31 +0100
+
+
+Started POST "/users" for 127.0.0.1 at 2015-02-26 16:40:33 +0100
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YOdj80LpjgHA/XS7bbCFop295KtrdkBEeT9guchNpk0=", "user"=>{"email"=>"", "username"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Registrieren"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered devise/registrations/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 270ms (Views: 256.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:33 +0100
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:33 +0100
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:33 +0100
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:33 +0100
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:33 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:33 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:33 +0100
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:33 +0100
+
+
+Started GET "/assets/scores.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:33 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:33 +0100
+
+
+Started GET "/assets/solutions.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:33 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:33 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:33 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:33 +0100
+
+
+Started GET "/assets/gallery/responsive/elastislide.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:33 +0100
+
+
+Started GET "/assets/gallery/responsive.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:33 +0100
+
+
+Started GET "/assets/gallery/slideshow.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:33 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:33 +0100
+
+
+Started GET "/assets/gallery/touch_touch.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:33 +0100
+
+
+Started GET "/assets/devise_bootstrap_views.css?body=1" for 127.0.0.1 at 2015-02-26 16:40:33 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:33 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:33 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:33 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:33 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:33 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:33 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:33 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:33 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:33 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:33 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:33 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:33 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:33 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:33 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:33 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:33 +0100
+
+
+Started GET "/assets/responsive.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:33 +0100
+
+
+Started GET "/assets/gallery/slideshow.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:33 +0100
+
+
+Started GET "/assets/gallery/touch_touch.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:33 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:33 +0100
+
+
+Started GET "/assets/gallery/galleria.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:33 +0100
+
+
+Started GET "/assets/jquery/jquery.easing-1.3.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:33 +0100
+
+
+Started GET "/assets/jquery/jquery.elastislide.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:33 +0100
+
+
+Started GET "/assets/jquery/jquery.tmpl.min.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:33 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-26 16:40:33 +0100
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2015-02-26 16:41:29 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/registrations/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 218ms (Views: 216.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2015-02-26 16:41:29 +0100
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2015-02-26 16:41:29 +0100
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-02-26 16:41:29 +0100
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2015-02-26 16:41:29 +0100
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2015-02-26 16:41:29 +0100
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-26 16:41:29 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-26 16:41:29 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-26 16:41:29 +0100
+
+
+Started GET "/assets/scores.css?body=1" for 127.0.0.1 at 2015-02-26 16:41:29 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-26 16:41:29 +0100
+
+
+Started GET "/assets/solutions.css?body=1" for 127.0.0.1 at 2015-02-26 16:41:29 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-26 16:41:29 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-26 16:41:29 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-26 16:41:29 +0100
+
+
+Started GET "/assets/gallery/responsive/elastislide.css?body=1" for 127.0.0.1 at 2015-02-26 16:41:29 +0100
+
+
+Started GET "/assets/gallery/slideshow.css?body=1" for 127.0.0.1 at 2015-02-26 16:41:29 +0100
+
+
+Started GET "/assets/gallery/responsive.css?body=1" for 127.0.0.1 at 2015-02-26 16:41:29 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.css?body=1" for 127.0.0.1 at 2015-02-26 16:41:29 +0100
+
+
+Started GET "/assets/gallery/touch_touch.css?body=1" for 127.0.0.1 at 2015-02-26 16:41:29 +0100
+
+
+Started GET "/assets/devise_bootstrap_views.css?body=1" for 127.0.0.1 at 2015-02-26 16:41:29 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:29 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:29 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:29 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:29 +0100
+
+
+Started GET "/assets/responsive.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:29 +0100
+
+
+Started GET "/assets/gallery/slideshow.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:29 +0100
+
+
+Started GET "/assets/gallery/galleria.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:29 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:29 +0100
+
+
+Started GET "/assets/gallery/touch_touch.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:29 +0100
+
+
+Started GET "/assets/jquery/jquery.easing-1.3.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:29 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:29 +0100
+
+
+Started GET "/assets/jquery/jquery.elastislide.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:29 +0100
+
+
+Started GET "/assets/jquery/jquery.tmpl.min.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:29 +0100
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-02-26 16:41:31 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/sessions/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 266ms (Views: 264.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-26 16:41:31 +0100
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (90.1ms)
+Completed 200 OK in 353ms (Views: 352.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?r" for 127.0.0.1 at 2015-02-26 16:41:32 +0100
+Processing by WelcomeController#index as HTML
+  Parameters: {"r"=>nil}
+  Rendered welcome/index.html.erb within layouts/application (80.8ms)
+Completed 200 OK in 335ms (Views: 333.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2015-02-26 16:41:32 +0100
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2015-02-26 16:41:32 +0100
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-02-26 16:41:32 +0100
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2015-02-26 16:41:32 +0100
+
+
+Started GET "/assets/rounds.css?body=1" for 127.0.0.1 at 2015-02-26 16:41:32 +0100
+
+
+Started GET "/assets/games.css?body=1" for 127.0.0.1 at 2015-02-26 16:41:32 +0100
+
+
+Started GET "/assets/rundes.css?body=1" for 127.0.0.1 at 2015-02-26 16:41:32 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-26 16:41:32 +0100
+
+
+Started GET "/assets/scores.css?body=1" for 127.0.0.1 at 2015-02-26 16:41:32 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-26 16:41:32 +0100
+
+
+Started GET "/assets/solutions.css?body=1" for 127.0.0.1 at 2015-02-26 16:41:32 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-26 16:41:32 +0100
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-02-26 16:41:32 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-26 16:41:32 +0100
+
+
+Started GET "/assets/gallery/responsive/elastislide.css?body=1" for 127.0.0.1 at 2015-02-26 16:41:32 +0100
+
+
+Started GET "/assets/gallery/responsive.css?body=1" for 127.0.0.1 at 2015-02-26 16:41:32 +0100
+
+
+Started GET "/assets/gallery/slideshow.css?body=1" for 127.0.0.1 at 2015-02-26 16:41:32 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.css?body=1" for 127.0.0.1 at 2015-02-26 16:41:32 +0100
+
+
+Started GET "/assets/gallery/touch_touch.css?body=1" for 127.0.0.1 at 2015-02-26 16:41:32 +0100
+
+
+Started GET "/assets/devise_bootstrap_views.css?body=1" for 127.0.0.1 at 2015-02-26 16:41:32 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:32 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:32 +0100
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:32 +0100
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:32 +0100
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:32 +0100
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:32 +0100
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:32 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:32 +0100
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:32 +0100
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:32 +0100
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:32 +0100
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:32 +0100
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:32 +0100
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:32 +0100
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:32 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:32 +0100
+
+
+Started GET "/assets/gallery/slideshow.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:32 +0100
+
+
+Started GET "/assets/responsive.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:32 +0100
+
+
+Started GET "/assets/gallery/galleria.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:32 +0100
+
+
+Started GET "/assets/gallery/galleria/classic.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:32 +0100
+
+
+Started GET "/assets/gallery/touch_touch.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:33 +0100
+
+
+Started GET "/assets/jquery/jquery.easing-1.3.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:33 +0100
+
+
+Started GET "/assets/jquery/jquery.elastislide.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:33 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:33 +0100
+
+
+Started GET "/assets/jquery/jquery.tmpl.min.js?body=1" for 127.0.0.1 at 2015-02-26 16:41:33 +0100
