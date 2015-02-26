@@ -20,6 +20,7 @@
  *= require gallery/slideshow
  *= require gallery/galleria/classic
  *= require gallery/touch_touch
+ *= require devise_bootstrap_views
  */
 
 /* Your stylesheets goes here... */

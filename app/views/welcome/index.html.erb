@@ -6,7 +6,7 @@
     <p>Damit Sie gegen einen Freunde spielen können, müssen Sie registriert und eingeloggt sein</p>
     </p>
 <% else %>
-    <h2>Hallo <%= current_user.name %>,</h2>
+    <h2>Hallo <%= current_user.username %></h2>
     <form action=<%= new_game_path %> >
       <input class="btn btn-primary btn-lg btn-block" type="submit" value="Neues Spiel">
     </form>
