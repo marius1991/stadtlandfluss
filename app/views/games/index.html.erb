@@ -19,5 +19,5 @@
     <p class="alert alert-warning">Derzeit gibt es keine laufenden Spiele</p>
 <% end %>
 <p> <%= button_to "Aktualisieren!", games_path(@game), :method => :get, class:"btn btn-primary" %> </p>
-<button type="button" class="btn btn-default btn-xs" onClick="history.go(-1);return true;">Zurück</button>
+<p> <%= button_to "Zurück",root_path, :method => :get, class:"btn btn-default btn-xs" %> </p>
 
