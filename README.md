@@ -40,9 +40,10 @@ Nun kann man sich Registrieren und Spaß haben!
 + User kann sich einloggen
 + User kann seine Userdaten editieren
 + User kann ein neues Spiel erstellen
++ User kann sich eine Liste mit offenen Spielen anzeigen lassen
 + User kann einem offenenen Spiel beitreten
 + User kann ein offenes Spiel löschen
-+ User kann spielen bzw. seine Lösungen in den Spielbogen eintragen
++ User kann seine Lösungen in den Spielbogen eintragen
 + User sieht die erreichte Punktzahl, seinen Spielbogen und den des Gegners unmittelbar nach dem Spiel
 
 
