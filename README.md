@@ -15,6 +15,7 @@ gem 'devise-bootstrap-views'
 gem 'devise-i18n'
 gem 'yaml_db'
 ```
+Nun den Befehl ```sh bundle install ``` ausführen.
 
 **Nach dem herunterladen des Repositorys folgende Befehle anwenden:**
 
