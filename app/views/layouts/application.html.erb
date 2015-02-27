@@ -103,7 +103,7 @@
             <li>Gesamtpunktzahl:
                 <% @score_points = current_user.scores.all %>
                 <% @score_points.each do |score| %>
-                <% @pointz = @pointz + score.points %>
+                <% @pointz = @pointz + score.points  %>
                 <% end %>
                 <%= @pointz %>
             </li>
@@ -111,7 +111,7 @@
             <li>Gespielte Spiele:
                 <% @score_count = current_user.scores.all %>
                 <% @score_count.each do |count| %>
-                <% @countz = @countz + 1 %>
+                <% @countz = @countz + 1 if count.is_calculated == true %>
                 <% end %>
                <%= @countz %>
             </li>

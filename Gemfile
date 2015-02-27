@@ -46,3 +46,4 @@ gem "rails-gallery"
 gem 'devise'
 gem 'devise-bootstrap-views'
 gem 'devise-i18n'
+gem 'yaml_db'

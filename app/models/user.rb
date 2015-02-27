@@ -9,7 +9,8 @@ class User < ActiveRecord::Base
   validates :username ,
             :presence => {:message => "darf nicht leer sein"},
             :format =>{ :with => /\A[a-zA-Z0-9]+\Z/,
-                        :message => "darf keine Leerzeichen enthalten"},
-            on: :create, on: :update
+                        :message => "darf keine Leerzeichen enthalten"}
+
+  validates_uniqueness_of :username
 
 end

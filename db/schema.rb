@@ -56,15 +56,6 @@ ActiveRecord::Schema.define(version: 20150226133947) do
     t.string   "river"
   end
 
-  create_table "rundes", force: true do |t|
-    t.string   "buchstabe",  limit: 1, null: false
-    t.string   "stadt"
-    t.string   "land"
-    t.string   "fluss"
-    t.integer  "punkte"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
 
   create_table "scores", force: true do |t|
     t.integer  "points"
@@ -76,16 +67,6 @@ ActiveRecord::Schema.define(version: 20150226133947) do
     t.boolean  "is_calculated"
   end
 
-  create_table "solutions", force: true do |t|
-    t.string   "solution"
-    t.string   "category"
-    t.boolean  "is_correct"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.integer  "round_id"
-    t.integer  "points"
-    t.integer  "player_id"
-  end
 
   create_table "users", force: true do |t|
     t.string   "email",                  default: "", null: false
