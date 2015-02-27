@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7102428e-e958-4c21-8c64-1aa9c7d62069" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/09e2a090befacdae0db10cafb1893a0a" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/09e2a090befacdae0db10cafb1893a0a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/13fe41fee1fe35b49d145bcc06610705" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/13fe41fee1fe35b49d145bcc06610705" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/2b38c3fb549036de5c4666637a0c80c6" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/2b38c3fb549036de5c4666637a0c80c6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/2f5173deea6c795b8fdde723bb4b63af" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/2f5173deea6c795b8fdde723bb4b63af" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/357970feca3ac29060c1e3861e2c0953" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/357970feca3ac29060c1e3861e2c0953" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/8c2b061e379a23e7c4d207adcf992462" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/8c2b061e379a23e7c4d207adcf992462" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/d585a06e2ee6203ccb04c8b84150d14d" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/d585a06e2ee6203ccb04c8b84150d14d" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/d771ace226fc8215a3572e0aa35bb0d6" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/d771ace226fc8215a3572e0aa35bb0d6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/development.sqlite3" afterPath="$PROJECT_DIR$/db/development.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/f7cbd26ba1d28d48de824f0e94586655" afterPath="$PROJECT_DIR$/tmp/cache/assets/development/sprockets/f7cbd26ba1d28d48de824f0e94586655" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/devise.rb" afterPath="$PROJECT_DIR$/config/initializers/devise.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="stadtlandfluss.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -84,8 +71,8 @@
       <file leaf-file-name="Gemfile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2020958" vertical-offset="0" max-vertical-offset="855">
-              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.4491018" vertical-offset="0" max-vertical-offset="855">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -673,8 +660,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2020958" vertical-offset="0" max-vertical-offset="855">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.4491018" vertical-offset="0" max-vertical-offset="855">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding />
         </state>
       </provider>
