@@ -33,6 +33,8 @@ rake db:data:load
 ```
 Die akzeptierten Lösungen enthalten alle 2060 deutsche Städte, alle souveränen Staaten der Welt und ca. 400 deutsche Flüsse (Alle Daten von Wikipedia)
 
+Zum starten des Servers: ``` rails s ```
+
 Nun kann man sich Registrieren und Spaß haben!
 
 **User-Storys:**
