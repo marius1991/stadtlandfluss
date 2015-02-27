@@ -1,9 +1,11 @@
 # stadtlandfluss
 [![StadtlandFluss](http://fs2.directupload.net/images/150227/mdjvbl4j.png)](http://stadtlandflussduell.herokuapp.com)
 
-**Installationshinweise:**
+#Installationshinweise:
 
-**Benötigte Gems, die in das Gemfile eingefügt werden müssen:**
+Rails Version: 4.1.6
+
+**Verwendete Gems:**
 
 ```rb
 gem 'therubyracer'
@@ -15,7 +17,7 @@ gem 'devise-bootstrap-views'
 gem 'devise-i18n'
 gem 'yaml_db'
 ```
-Nun den Befehl ``` bundle install ``` ausführen.
+Nach herunterladen des Repositorys den Befehl ``` bundle install ``` ausführen.
 
 Zum erstellen der Datenbanktabellen ``` rake db:schema:load ``` ausführen.
 
@@ -34,6 +36,7 @@ Die akzeptierten Lösungen enthalten alle 2060 deutsche Städte, alle souveräne
 + User kann einem offenenen Spiel beitreten
 + User kann ein offenes Spiel löschen
 + User kann spielen bzw. seine Lösungen in den Spielbogen eintragen
++ User sieht die erreichte Punktzahl, seinen Spielbogen und den des Gegners unmittelbar nach dem Spiel
 
 
 
