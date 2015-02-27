@@ -25,13 +25,13 @@ rake db:data:load
 ```
 
 **User-Storys:**
--User kann sich registrieren
--User kann sich einloggen
--User kann seine Userdaten editieren
--User kann ein neues Spiel erstellen
--User kann einem offenenen Spiel beitreten
--User kann ein offenes Spiel löschen
--User kann spielen bzw. seine Lösungen in den Spielbogen eintragen
++ User kann sich registrieren
++ User kann sich einloggen
++ User kann seine Userdaten editieren
++ User kann ein neues Spiel erstellen
++ User kann einem offenenen Spiel beitreten
++ User kann ein offenes Spiel löschen
++ User kann spielen bzw. seine Lösungen in den Spielbogen eintragen
 
 
 
