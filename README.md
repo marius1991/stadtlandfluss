@@ -1,15 +1,15 @@
 # stadtlandfluss
 [![StadtlandFluss](http://fs2.directupload.net/images/150227/mdjvbl4j.png)](http://stadtlandflussduell.herokuapp.com)
-# stadtlandfluss
+
 **Installationshinweise:**
 
 **Benötigte Gems:**
 
 ```rb
-gem "therubyracer"
-gem "less-rails"
-gem "twitter-bootstrap-rails"
-gem "rails-gallery"
+gem 'therubyracer'
+gem 'less-rails'
+gem 'twitter-bootstrap-rails'
+gem 'rails-gallery'
 gem 'devise'
 gem 'devise-bootstrap-views'
 gem 'devise-i18n'
