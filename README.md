@@ -17,10 +17,23 @@ gem 'yaml_db'
 ```
 Nun den Befehl ``` bundle install ``` ausführen.
 
-**Nach dem herunterladen des Repositorys folgende Befehle anwenden:**
+**Dann folgende Befehle ausführen, Damit die akzeptierten Lösungen in die Lösungstabellen für Stadt, Land und Fluss eingetragen werden:**
 
 ```sh
 rake db:schema:load
 rake db:data:load  
 ```
-Damit die akzeptierten Lösungen in die Lösungstabellen für Stadt, Land und Fluss eingetragen werden
+
+**User-Storys:**
+-User kann sich registrieren
+-User kann sich einloggen
+-User kann seine Userdaten editieren
+-User kann ein neues Spiel erstellen
+-User kann einem offenenen Spiel beitreten
+-User kann ein offenes Spiel löschen
+-User kann spielen bzw. seine Lösungen in den Spielbogen eintragen
+
+
+
+
+
