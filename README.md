@@ -15,11 +15,12 @@ gem 'devise-bootstrap-views'
 gem 'devise-i18n'
 gem 'yaml_db'
 ```
+Nun den Befehl ``` bundle install ``` ausführen.
 
 **Nach dem herunterladen des Repositorys folgende Befehle anwenden:**
 
 ```sh
 rake db:schema:load
-rake db:data:load  #Damit die akzeptierten Lösungen in die Lösungstabellen für Stadt,
-                   #Land und Fluss eingetragen werden
+rake db:data:load  
 ```
+Damit die akzeptierten Lösungen in die Lösungstabellen für Stadt, Land und Fluss eingetragen werden
