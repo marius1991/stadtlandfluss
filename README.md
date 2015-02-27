@@ -19,11 +19,12 @@ Nun den Befehl ``` bundle install ``` ausführen.
 
 Zum erstellen der Datenbanktabellen ``` rake db:schema:load ``` ausführen.
 
-**Dann folgende Befehle ausführen, damit die akzeptierten Lösungen in die Lösungstabellen für Stadt, Land und Fluss eingetragen werden:**
+**Dann folgenden Befehl ausführen, damit die akzeptierten Lösungen in die Lösungstabellen für Stadt, Land und Fluss eingetragen werden:**
 
 ```sh
 rake db:data:load  
 ```
+Die akzeptierten Lösungen enthalten alle 2060 deutsche Städte, alle souveränen Staaten der Welt und ca. 400 deutsche Flüsse (Alle Daten von Wikipedia)
 
 **User-Storys:**
 + User kann sich registrieren
