@@ -28,6 +28,8 @@ rake db:data:load
 ```
 Die akzeptierten Lösungen enthalten alle 2060 deutsche Städte, alle souveränen Staaten der Welt und ca. 400 deutsche Flüsse (Alle Daten von Wikipedia)
 
+Nun kann man sich Registrieren und Spaß haben!
+
 **User-Storys:**
 + User kann sich registrieren
 + User kann sich einloggen
