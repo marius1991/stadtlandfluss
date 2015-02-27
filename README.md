@@ -20,5 +20,6 @@ gem 'yaml_db'
 
 ```sh
 rake db:schema:load
-rake db:data:load  #Damit die Lösungen in die Lösungstabellen für Stadt, Land und Fluss eingetragen werden
+rake db:data:load  #Damit die akzeptierten Lösungen 
+                   #in die Lösungstabellen für Stadt, Land und Fluss eingetragen werden
 ```
