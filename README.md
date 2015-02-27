@@ -2,9 +2,9 @@
 
 Ein spaßiges Stadt-Land-Fluss Browserspiel für zwei Spieler!
 
-**[Zur Heroku-Seite](http://stadtlandflussduell.herokuapp.com)**
+**[Zur Heroku-Seite](http://slf-duell.herokuapp.com)**
 
-[![StadtlandFluss](http://fs2.directupload.net/images/150227/mdjvbl4j.png)](http://stadtlandflussduell.herokuapp.com)
+[![StadtlandFluss](http://fs2.directupload.net/images/150227/mdjvbl4j.png)](http://slf-duell.herokuapp.com)
 
 #Installationshinweise:
 
