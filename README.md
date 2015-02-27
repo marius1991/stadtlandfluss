@@ -17,10 +17,11 @@ gem 'yaml_db'
 ```
 Nun den Befehl ``` bundle install ``` ausführen.
 
-**Dann folgende Befehle ausführen, Damit die akzeptierten Lösungen in die Lösungstabellen für Stadt, Land und Fluss eingetragen werden:**
+Zum erstellen der Datenbanktabellen ``` rake db:schema:load ``` ausführen.
+
+**Dann folgende Befehle ausführen, damit die akzeptierten Lösungen in die Lösungstabellen für Stadt, Land und Fluss eingetragen werden:**
 
 ```sh
-rake db:schema:load
 rake db:data:load  
 ```
 
