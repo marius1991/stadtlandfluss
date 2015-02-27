@@ -9,6 +9,7 @@
     <%= button_to "Spiel starten!", round_path(@game.rounds.where(round_count: 1, player_id: current_user).first), :method => :get, class:"btn btn-primary btn-lg btn-block" %>
 <% else %>
     <p class="alert alert-warning">Es kann erst gestartet werden, wenn zwei Spieler im Spiel sind</p>
-    <p> <%= button_to "Aktualisieren!", game_path(@game), :method => :get, class:"btn btn-primary" %> </p>
+    <%= button_to "Aktualisieren!", game_path(@game), :method => :get, class:"btn btn-primary" %> <br>
+    <%= button_to "Spiel löschen!", game_path(@game), :method => :delete, class:"btn btn-danger" %>
 
 <% end %>

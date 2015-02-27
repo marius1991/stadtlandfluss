@@ -1,6 +1,6 @@
 class Game < ActiveRecord::Base
-  has_many :rounds
-  has_many :players
+  has_many :rounds, dependent: :destroy
+  has_many :players, dependent: :destroy
   has_many :scores
 
   validates :max_round_count ,
