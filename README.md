@@ -22,4 +22,4 @@ gem 'yaml_db'
 rake db:schema:load
 rake db:data:load  
 ```
-**Damit die akzeptierten Lösungen in die Lösungstabellen für Stadt, Land und Fluss eingetragen werden**
+*Damit die akzeptierten Lösungen in die Lösungstabellen für Stadt, Land und Fluss eingetragen werden*
