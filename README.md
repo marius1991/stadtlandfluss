@@ -3,7 +3,7 @@
 
 **Installationshinweise:**
 
-**Benötigte Gems:**
+**Benötigte Gems, die in das Gemfile eingefügt werden müssen:**
 
 ```rb
 gem 'therubyracer'
