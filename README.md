@@ -2,9 +2,9 @@
 
 Ein spaßiges Stadt-Land-Fluss Browserspiel für zwei Spieler!
 
-**[Zur Heroku-Seite](http://stadtlandflussduell.herokuapp.com)**
+**[Zur Heroku-Seite](http://slf-duell.herokuapp.com)**
 
-[![StadtlandFluss](http://fs2.directupload.net/images/150227/mdjvbl4j.png)](http://stadtlandflussduell.herokuapp.com)
+[![StadtlandFluss](http://fs2.directupload.net/images/150227/mdjvbl4j.png)](http://slf-duell.herokuapp.com)
 
 #Installationshinweise:
 
@@ -38,8 +38,8 @@ Zum starten des Servers: ``` rails s ```
 Nun kann man sich Registrieren und Spaß haben!
 
 **User-Storys:**
-+ User kann sich registrieren
-+ User kann sich einloggen
++ Besucher kann sich registrieren
++ Besucher kann sich einloggen
 + User kann seine Userdaten editieren
 + User kann ein neues Spiel erstellen
 + User kann sich eine Liste mit offenen Spielen anzeigen lassen
